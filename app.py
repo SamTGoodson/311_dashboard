@@ -13,6 +13,8 @@ import dash_leaflet as dl
 import dash_leaflet.express as dlx
 from dash_extensions.enrich import DashProxy, html
 
+import plotly.express as px
+
 from dash_extensions.javascript import assign
 
 def load_raw() -> dict:
@@ -21,11 +23,11 @@ def load_raw() -> dict:
 
 payload = load_raw()
 df = pd.DataFrame(payload)
+
 cb_data = pd.read_csv('data/community_board_aggregate.csv')
 with open("data/community_boards.geojson") as f: 
     gdf = geojson.load(f)
 
-# clean
 cb_data["board_num"] = pd.to_numeric(
     cb_data["community_board"].str.extract(r"(\d+)")[0],
     errors="coerce"
@@ -112,7 +114,7 @@ app.layout = html.Div(children = [
                            options={"style": style_handle}),
             ],
             center=(40.71, -74.00),
-            zoom=11,
+            zoom=8,
             style={"height": "50vh"},
         ),
     ]),
@@ -124,30 +126,31 @@ app.layout = html.Div(children = [
         dcc.Dropdown(
         id='cat-dropdown',
         options=[{"label": c, "value": c} for c in df["complaint_type"].unique()],
-        value='Noise - Residential',
+        value=['Noise - Residential'],
         multi=True ),
-    html.Div(dag.AgGrid(
+    html.Div([dag.AgGrid(
         id='data-table',
         rowData=df.to_dict('records'),
-        columnDefs=[{"field": i} for i in df.columns])
+        columnDefs=[{"field": i} for i in df.columns]),
+        dcc.Graph(figure={}, id='complaint-graph')]
     )
 ]
 )
 
-@app.callback(
-    Output("data-table", "rowData"),
-    Input("cat-dropdown", "value")
+@callback(
+    Output(component_id='complaint-graph', component_property='figure'),
+    Input(component_id='cat-dropdown', component_property='value')
 )
-def update_table_rows(selected_complaints):
-    if not selected_complaints:
-        return df.to_dict("records")
-    
-    if isinstance(selected_complaints, list):
-        filtered_df = df[df["complaint_type"].isin(selected_complaints)]
-    else:
-        filtered_df = df[df["complaint_type"] == selected_complaints]
-        
-    return filtered_df.to_dict("records")
+def update_graph(value_chosen):
+    plot_df = df[df['complaint_type'].isin(value_chosen)]
 
+    fig = px.histogram(
+        plot_df,
+        x='borough',
+        y='count',
+        histfunc='sum'
+    )
+
+    return fig
 if __name__ == "__main__":
     app.run()
