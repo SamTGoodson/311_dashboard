@@ -1,0 +1,878 @@
+[
+  {
+    "complaint_type":"Illegal Parking",
+    "count":3686,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Noise - Residential",
+    "count":2365,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Noise - Street\/Sidewalk",
+    "count":1518,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Blocked Driveway",
+    "count":1229,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"UNSANITARY CONDITION",
+    "count":955,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Street Condition",
+    "count":510,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Dirty Condition",
+    "count":460,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Noise - Commercial",
+    "count":445,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Abandoned Vehicle",
+    "count":430,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Encampment",
+    "count":404,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"PLUMBING",
+    "count":393,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"PAINT\/PLASTER",
+    "count":392,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Noise - Vehicle",
+    "count":390,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Noise",
+    "count":349,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"WATER LEAK",
+    "count":339,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Street Light Condition",
+    "count":314,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Water Maintenance",
+    "count":301,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"HEAT\/HOT WATER",
+    "count":293,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Damaged Tree",
+    "count":284,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"DOOR\/WINDOW",
+    "count":280,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Illegal Dumping",
+    "count":267,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Traffic Signal Condition",
+    "count":248,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Sewer Maintenance",
+    "count":237,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Homeless Person Assistance",
+    "count":237,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"GENERAL",
+    "count":235,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Maintenance or Facility",
+    "count":194,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"ELECTRIC",
+    "count":190,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Missed Collection",
+    "count":187,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Obstruction",
+    "count":184,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"General Construction\/Plumbing",
+    "count":172,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Overgrown Tree\/Branches",
+    "count":160,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Rodent",
+    "count":160,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"FLOORING\/STAIRS",
+    "count":152,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"APPLIANCE",
+    "count":152,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Sidewalk Condition",
+    "count":148,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Elevator",
+    "count":136,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Consumer Complaint",
+    "count":134,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Non-Emergency Police Matter",
+    "count":131,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Vendor Enforcement",
+    "count":129,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Residential Disposal Complaint",
+    "count":104,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Lead",
+    "count":102,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Food Establishment",
+    "count":100,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Noise - Park",
+    "count":96,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Derelict Vehicles",
+    "count":96,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Building\/Use",
+    "count":92,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Dead\/Dying Tree",
+    "count":89,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Panhandling",
+    "count":85,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"SAFETY",
+    "count":75,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Root\/Sewer\/Sidewalk Condition",
+    "count":74,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Curb Condition",
+    "count":74,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Dead Animal",
+    "count":71,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Indoor Air Quality",
+    "count":69,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"For Hire Vehicle Complaint",
+    "count":69,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Taxi Complaint",
+    "count":67,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Animal-Abuse",
+    "count":63,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Air Quality",
+    "count":58,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Illegal Tree Damage",
+    "count":50,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Graffiti",
+    "count":49,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Lost Property",
+    "count":41,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Street Sweeping Complaint",
+    "count":41,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Traffic",
+    "count":40,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Drinking",
+    "count":39,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Drug Activity",
+    "count":39,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Smoking or Vaping",
+    "count":35,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Violation of Park Rules",
+    "count":32,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Real Time Enforcement",
+    "count":31,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Cannabis Retailer",
+    "count":29,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Animal in a Park",
+    "count":26,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Litter Basket Request",
+    "count":25,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"ELEVATOR",
+    "count":24,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Water Conservation",
+    "count":24,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Noise - Helicopter",
+    "count":24,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Highway Condition",
+    "count":23,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Street Sign - Dangling",
+    "count":21,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Street Sign - Missing",
+    "count":21,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Street Sign - Damaged",
+    "count":21,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Illegal Posting",
+    "count":18,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Litter Basket Complaint",
+    "count":18,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Hazardous Material",
+    "count":18,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Outdoor Dining",
+    "count":17,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Illegal Fireworks",
+    "count":17,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Abandoned Bike",
+    "count":16,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Special Projects Inspection Team (SPIT)",
+    "count":16,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Urinating in Public",
+    "count":16,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Lot Condition",
+    "count":16,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Dumpster Complaint",
+    "count":15,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Emergency Response Team (ERT)",
+    "count":15,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Unsanitary Animal Pvt Property",
+    "count":15,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Broken Parking Meter",
+    "count":14,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Plumbing",
+    "count":14,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Unleashed Dog",
+    "count":13,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Sanitation Worker or Vehicle Complaint",
+    "count":13,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Unsanitary Pigeon Condition",
+    "count":13,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Standing Water",
+    "count":12,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Wood Pile Remaining",
+    "count":12,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Commercial Disposal Complaint",
+    "count":12,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Food Poisoning",
+    "count":12,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Mobile Food Vendor",
+    "count":12,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Industrial Waste",
+    "count":12,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Bike\/Roller\/Skate",
+    "count":11,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Mosquitoes",
+    "count":11,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Bike Rack",
+    "count":10,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Day Care",
+    "count":10,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Water Quality",
+    "count":8,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Illegal Animal Kept as Pet",
+    "count":7,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Boilers",
+    "count":7,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"OUTSIDE BUILDING",
+    "count":7,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Green Infrastructure",
+    "count":7,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Mold",
+    "count":6,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Noise - House of Worship",
+    "count":5,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Bus Stop Shelter Complaint",
+    "count":5,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Indoor Sewage",
+    "count":5,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Harboring Bees\/Wasps",
+    "count":5,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"New Tree Request",
+    "count":5,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Construction Lead Dust",
+    "count":4,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Electrical",
+    "count":4,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Bridge Condition",
+    "count":4,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Taxi Report",
+    "count":4,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Ferry Inquiry",
+    "count":3,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Uprooted Stump",
+    "count":3,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"For Hire Vehicle Report",
+    "count":3,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Ferry Complaint",
+    "count":3,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Waste Water Treatment Plant",
+    "count":2,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Drinking Water",
+    "count":2,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Poison Ivy",
+    "count":2,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Cooling Tower",
+    "count":2,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Beach\/Pool\/Sauna Complaint",
+    "count":2,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"BEST\/Site Safety",
+    "count":2,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Investigations and Discipline (IAD)",
+    "count":2,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Asbestos",
+    "count":1,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Borough Office",
+    "count":1,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Bench",
+    "count":1,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Animal Facility - No Permit",
+    "count":1,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"LinkNYC",
+    "count":1,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Building Drinking Water Tank",
+    "count":1,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Illegal Animal Sold",
+    "count":1,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Bus Stop Shelter Placement",
+    "count":1,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Dry Weather Discharge",
+    "count":1,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Recycling Basket Complaint",
+    "count":1,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Pet Sale",
+    "count":1,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Municipal Parking Facility",
+    "count":1,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Taxi Compliment",
+    "count":1,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Tobacco or Non-Tobacco Sale",
+    "count":1,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Taxi Licensee Complaint",
+    "count":1,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Transfer Station Complaint",
+    "count":1,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  },
+  {
+    "complaint_type":"Unsanitary Animal Facility",
+    "count":1,
+    "date":"2026-09-13T00:00:00.000",
+    "ingested_at":"2026-09-16T19:10:45.114145+00:00"
+  }
+]
