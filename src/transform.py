@@ -80,7 +80,7 @@ def geographic_summary(df,target_date):
 
     
     geo_summary = (
-        df.groupby("community_board")
+        df.groupby(["community_board",'complaint_type'])
         .size()
         .reset_index(name="count")
         .sort_values("count", ascending=False)
