@@ -34,7 +34,7 @@ def transform(payload: dict) -> pd.DataFrame:
 def summarize(df,target_date):
 
     summary = (
-        df.groupby("complaint_type")
+        df.groupby(["borough","complaint_type"])
         .size()
         .reset_index(name="count")
         .sort_values("count", ascending=False)
