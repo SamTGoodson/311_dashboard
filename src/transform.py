@@ -95,14 +95,8 @@ def main():
     payload = load_raw()
     df,target_date = transform(payload)
     summary = summarize(df,target_date)
-    print(summary.head())
-    print(summary.shape)
     geo_summary = geographic_summary(df,target_date)
-    print(geo_summary.head())
-    print(geo_summary.shape)
     
-
-
     try:
         validate_summary(summary, raw_row_count=len(payload["rows"]))
         validate_geo_summary(geo_summary)
@@ -111,8 +105,8 @@ def main():
         sys.exit(1)
 
     Path("data").mkdir(exist_ok=True)
-    summary.to_json(Path("data") / "_clean_transform.json", orient="records", indent=2)
-    geo_summary.to_csv('data/community_board_aggregate.csv',index=False)
+    summary.to_csv("data/_complaint_type_daily.csv", index = False)
+    geo_summary.to_csv('data/_community_board_daily.csv',index=False)
     logger.info("Wrote %d cleaned rows", len(summary))
     logger.info("Wrote %d community boards rows", len(geo_summary))
 

@@ -57,7 +57,7 @@ def write_raw(rows: list[dict], target_date: str) -> None:
         json.dump({"target_date": target_date, "rows": rows}, f, indent=2)
 
 def main():
-    target_date = (datetime.now() - timedelta(days=3)).strftime("%Y-%m-%dT00:00:00.000")
+    target_date = (datetime.now() - timedelta(days=2)).strftime("%Y-%m-%dT00:00:00.000")
     rows = fetch_data(target_date)
     write_raw(rows,target_date)
 if __name__ == "__main__":
