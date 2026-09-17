@@ -18,47 +18,14 @@ import plotly.express as px
 
 from dash_extensions.javascript import assign
 
-def load_raw() -> dict:
-    with open(Path("data") / "_clean_transform.json") as f:
-        return json.load(f)
-
-payload = load_raw()
-df = pd.DataFrame(payload)
-
-cb_data = pd.read_csv('data/community_board_aggregate.csv')
+# load data
 with open("data/community_boards.geojson") as f: 
     gdf = geojson.load(f)
+df = pd.read_csv('data/borough_df.csv')
+cb_data = pd.read_csv('data/cb_df.csv')
 
-cb_data["board_num"] = pd.to_numeric(
-    cb_data["community_board"].str.extract(r"(\d+)")[0],
-    errors="coerce"
-)
-
-cb_data["borough"] = (
-    cb_data["community_board"]
-    .str.extract(r"([A-Z ]+)$")[0]
-    .str.strip()
-)
-
-borough_codes = {
-    "MANHATTAN": 1,
-    "BRONX": 2,
-    "BROOKLYN": 3,
-    "QUEENS": 4,
-    "STATEN ISLAND": 5,
-}
-
-cb_data["borough_code"] = cb_data["borough"].map(borough_codes)
-
-cb_data["BoroCD"] = (
-    cb_data["borough_code"] * 100
-    + cb_data["board_num"]
-)
-
-
+# add count and color to geojson
 count_lookup = cb_data.set_index("BoroCD")["count"].to_dict()
-
-
 for feature in gdf["features"]:
 
     borocd = feature["properties"]["BoroCD"]
@@ -97,6 +64,7 @@ function(feature) {
 }
 """)
 
+# make popup on click
 popup_handle = assign("""
 function(feature, layer) {
     const board = feature.properties.BoroCD;
@@ -109,6 +77,7 @@ function(feature, layer) {
 }
 """)
 
+#app
 app = DashProxy()
 app.layout = html.Div(children = [
     html.H2('Daily 311 Complaints'),
@@ -151,6 +120,7 @@ app.layout = html.Div(children = [
 ]
 )
 
+# borough graph callback
 @callback(
     Output(component_id='complaint-graph', component_property='figure'),
     Input(component_id='cat-dropdown', component_property='value')
@@ -167,6 +137,7 @@ def update_graph(value_chosen):
 
     return fig
 
+#map callback
 @callback(
     Output('complaint-map', 'data'),
     Input('cat-dropdown', 'value')

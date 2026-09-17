@@ -1,5 +1,3 @@
-import pandas as pd
-import geopandas as gpd
 from sodapy import Socrata
 
 import os
