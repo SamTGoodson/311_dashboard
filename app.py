@@ -1,38 +1,36 @@
 import pandas as pd
-import geopandas as gpd
-
-from pathlib import Path
-import json
 
 import geojson
 
 import copy
 
-from dash import Dash, html, dcc, callback, Output, Input
-import dash_ag_grid as dag
-
+from dash import html, dcc, callback, Output, Input
 import dash_leaflet as dl
 from dash_extensions.enrich import DashProxy, html
+from dash_extensions.javascript import assign
 
 import plotly.express as px
 
-from dash_extensions.javascript import assign
 
 # load data
 with open("data/community_boards.geojson") as f: 
     gdf = geojson.load(f)
 df = pd.read_csv('data/borough_df.csv')
 cb_data = pd.read_csv('data/cb_df.csv')
+nta_data = pd.read_csv('data/nta_data.csv')
 
-# add count and color to geojson
+# add count and nta names to the geojson
 count_lookup = cb_data.set_index("BoroCD")["count"].to_dict()
+nta_lookup = nta_data.set_index("BoroCD")["NTA"].to_dict()
+
 for feature in gdf["features"]:
 
     borocd = feature["properties"]["BoroCD"]
 
     feature["properties"]["count"] = count_lookup.get(borocd)
+    feature["properties"]["NTA"] = nta_lookup.get(borocd)
 
-
+# add color, improve color scale later
 style_handle = assign("""
 function(feature) {
     const count = feature.properties.count ?? 0;
@@ -67,7 +65,7 @@ function(feature) {
 # make popup on click
 popup_handle = assign("""
 function(feature, layer) {
-    const board = feature.properties.BoroCD;
+    const board = feature.properties.NTA;
     const count = feature.properties.count ?? 0;
 
     layer.bindPopup(
@@ -111,19 +109,19 @@ app.layout = html.Div(children = [
     html.Br(),
     'Graph by Complaint Type',
     html.Br(),
-    html.Div([dag.AgGrid(
-        id='data-table',
-        rowData=df.to_dict('records'),
-        columnDefs=[{"field": i} for i in df.columns]),
-        dcc.Graph(figure={}, id='complaint-graph')]
+    html.Div([
+    dcc.Graph(
+        figure={},
+        id='complaint-graph'
     )
+])
 ]
 )
 
 # borough graph callback
 @callback(
-    Output(component_id='complaint-graph', component_property='figure'),
-    Input(component_id='cat-dropdown', component_property='value')
+    Output('complaint-graph', 'figure'),
+    Input('cat-dropdown', 'value')
 )
 def update_graph(value_chosen):
     plot_df = df[df['complaint_type'].isin(value_chosen)]

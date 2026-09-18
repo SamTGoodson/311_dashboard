@@ -7,6 +7,7 @@ tasks = [
     [sys.executable, "src/fetch_data.py"],
     [sys.executable, "src/transform.py"],
     [sys.executable, "src/load.py"],
+    [sys.executable, "src/format_for_dashboard.py"],
     ["echo", "Data updated."]
 ]
 
@@ -14,10 +15,8 @@ tasks = [
 def run_orchestrator(task_list):
     for cmd in task_list:
         print(f"Running: {' '.join(cmd)}")
-        result = subprocess.run(cmd, capture_output=True, text=True)
+        result = subprocess.run(cmd, text=True)
         
-        if result.stdout:
-            print(result.stdout)
             
         if result.returncode != 0:
             print(f"Error: Command failed with code {result.returncode}")

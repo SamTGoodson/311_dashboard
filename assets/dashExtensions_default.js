@@ -31,7 +31,7 @@ window.dashExtensions = Object.assign({}, window.dashExtensions, {
 
             ,
         function1: function(feature, layer) {
-            const board = feature.properties.BoroCD;
+            const board = feature.properties.NTA;
             const count = feature.properties.count ?? 0;
 
             layer.bindPopup(
