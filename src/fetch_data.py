@@ -16,7 +16,9 @@ password = os.getenv("NYC_PASSWORD")
 DATASET = 'erm2-nwe9'
 
 
-
+print("API token loaded:", bool(api_token))
+print("Username loaded:", bool(username))
+print("Password loaded:", bool(password))
 
 client = Socrata('data.cityofnewyork.us',
                  api_token,
