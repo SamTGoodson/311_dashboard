@@ -11209,45 +11209,6 @@
       }
     },
     {
-      "unique_key": "70432744",
-      "created_date": "2026-09-17T00:29:30.000",
-      "agency": "NYPD",
-      "agency_name": "New York City Police Department",
-      "complaint_type": "Illegal Parking",
-      "descriptor": "Blocked Hydrant",
-      "location_type": "Street/Sidewalk",
-      "incident_zip": "11385",
-      "incident_address": "66-51 60 PLACE",
-      "street_name": "60 PLACE",
-      "cross_street_1": "WOODBINE STREET",
-      "cross_street_2": "MADISON STREET",
-      "intersection_street_1": "WOODBINE STREET",
-      "intersection_street_2": "MADISON STREET",
-      "address_type": "ADDRESS",
-      "city": "RIDGEWOOD",
-      "landmark": "60 PLACE",
-      "status": "In Progress",
-      "community_board": "05 QUEENS",
-      "council_district": "30",
-      "police_precinct": "Precinct 104",
-      "bbl": "4035290006",
-      "borough": "QUEENS",
-      "x_coordinate_state_plane": "1011853",
-      "y_coordinate_state_plane": "196749",
-      "open_data_channel_type": "MOBILE",
-      "park_facility_name": "Unspecified",
-      "park_borough": "QUEENS",
-      "latitude": "40.70666426047773",
-      "longitude": "-73.90044113155523",
-      "location": {
-        "type": "Point",
-        "coordinates": [
-          -73.900441131555,
-          40.706664260478
-        ]
-      }
-    },
-    {
       "unique_key": "70436629",
       "created_date": "2026-09-17T00:29:30.000",
       "agency": "NYPD",
@@ -11283,6 +11244,45 @@
         "coordinates": [
           -73.90242831255,
           40.876809105151
+        ]
+      }
+    },
+    {
+      "unique_key": "70432744",
+      "created_date": "2026-09-17T00:29:30.000",
+      "agency": "NYPD",
+      "agency_name": "New York City Police Department",
+      "complaint_type": "Illegal Parking",
+      "descriptor": "Blocked Hydrant",
+      "location_type": "Street/Sidewalk",
+      "incident_zip": "11385",
+      "incident_address": "66-51 60 PLACE",
+      "street_name": "60 PLACE",
+      "cross_street_1": "WOODBINE STREET",
+      "cross_street_2": "MADISON STREET",
+      "intersection_street_1": "WOODBINE STREET",
+      "intersection_street_2": "MADISON STREET",
+      "address_type": "ADDRESS",
+      "city": "RIDGEWOOD",
+      "landmark": "60 PLACE",
+      "status": "In Progress",
+      "community_board": "05 QUEENS",
+      "council_district": "30",
+      "police_precinct": "Precinct 104",
+      "bbl": "4035290006",
+      "borough": "QUEENS",
+      "x_coordinate_state_plane": "1011853",
+      "y_coordinate_state_plane": "196749",
+      "open_data_channel_type": "MOBILE",
+      "park_facility_name": "Unspecified",
+      "park_borough": "QUEENS",
+      "latitude": "40.70666426047773",
+      "longitude": "-73.90044113155523",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -73.900441131555,
+          40.706664260478
         ]
       }
     },
@@ -12915,45 +12915,6 @@
       }
     },
     {
-      "unique_key": "70436593",
-      "created_date": "2026-09-17T00:18:39.000",
-      "agency": "NYPD",
-      "agency_name": "New York City Police Department",
-      "complaint_type": "Noise - Street/Sidewalk",
-      "descriptor": "Loud Talking",
-      "location_type": "Street/Sidewalk",
-      "incident_zip": "10453",
-      "incident_address": "30 RICHMAN PLAZA",
-      "street_name": "RICHMAN PLAZA",
-      "cross_street_1": "DEAD END",
-      "cross_street_2": "HARLEM RIVER PARK BRIDGE",
-      "intersection_street_1": "DEAD END",
-      "intersection_street_2": "HARLEM RIVER PARK BRIDGE",
-      "address_type": "ADDRESS",
-      "city": "BRONX",
-      "landmark": "RICHMAN PLAZA",
-      "status": "In Progress",
-      "community_board": "05 BRONX",
-      "council_district": "16",
-      "police_precinct": "Precinct 46",
-      "bbl": "2028820229",
-      "borough": "BRONX",
-      "x_coordinate_state_plane": "1005687",
-      "y_coordinate_state_plane": "249694",
-      "open_data_channel_type": "MOBILE",
-      "park_facility_name": "Unspecified",
-      "park_borough": "BRONX",
-      "latitude": "40.85200128682642",
-      "longitude": "-73.92251180442457",
-      "location": {
-        "type": "Point",
-        "coordinates": [
-          -73.922511804425,
-          40.852001286826
-        ]
-      }
-    },
-    {
       "unique_key": "70443561",
       "created_date": "2026-09-17T00:18:39.000",
       "agency": "NYPD",
@@ -12989,6 +12950,45 @@
         "coordinates": [
           -73.937687113221,
           40.762381512908
+        ]
+      }
+    },
+    {
+      "unique_key": "70436593",
+      "created_date": "2026-09-17T00:18:39.000",
+      "agency": "NYPD",
+      "agency_name": "New York City Police Department",
+      "complaint_type": "Noise - Street/Sidewalk",
+      "descriptor": "Loud Talking",
+      "location_type": "Street/Sidewalk",
+      "incident_zip": "10453",
+      "incident_address": "30 RICHMAN PLAZA",
+      "street_name": "RICHMAN PLAZA",
+      "cross_street_1": "DEAD END",
+      "cross_street_2": "HARLEM RIVER PARK BRIDGE",
+      "intersection_street_1": "DEAD END",
+      "intersection_street_2": "HARLEM RIVER PARK BRIDGE",
+      "address_type": "ADDRESS",
+      "city": "BRONX",
+      "landmark": "RICHMAN PLAZA",
+      "status": "In Progress",
+      "community_board": "05 BRONX",
+      "council_district": "16",
+      "police_precinct": "Precinct 46",
+      "bbl": "2028820229",
+      "borough": "BRONX",
+      "x_coordinate_state_plane": "1005687",
+      "y_coordinate_state_plane": "249694",
+      "open_data_channel_type": "MOBILE",
+      "park_facility_name": "Unspecified",
+      "park_borough": "BRONX",
+      "latitude": "40.85200128682642",
+      "longitude": "-73.92251180442457",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -73.922511804425,
+          40.852001286826
         ]
       }
     },
@@ -299869,6 +299869,43 @@
       }
     },
     {
+      "unique_key": "70443359",
+      "created_date": "2026-09-16T11:43:03.000",
+      "agency": "HPD",
+      "agency_name": "Department of Housing Preservation and Development",
+      "complaint_type": "PAINT/PLASTER",
+      "descriptor": "CEILING",
+      "descriptor_2": "COLLAPSING OR FALLING",
+      "location_type": "RESIDENTIAL BUILDING",
+      "incident_zip": "11373",
+      "incident_address": "51-60 VAN KLEECK STREET",
+      "street_name": "VAN KLEECK STREET",
+      "address_type": "ADDRESS",
+      "city": "ELMHURST",
+      "status": "Open",
+      "resolution_description": "The following complaint conditions are still open. HPD has already attempted to notify the property owner that the condition exists; the tenant should provide access for the owner to make the repair.  HPD may attempt to contact the tenant by phone to verify the correction of the condition or an HPD Inspector may attempt to conduct an inspection.",
+      "resolution_action_updated_date": "2026-09-16T00:00:00.000",
+      "community_board": "04 QUEENS",
+      "council_district": "30",
+      "police_precinct": "Precinct 110",
+      "bbl": "4024730031",
+      "borough": "QUEENS",
+      "x_coordinate_state_plane": "1016918",
+      "y_coordinate_state_plane": "207417",
+      "open_data_channel_type": "ONLINE",
+      "park_facility_name": "Unspecified",
+      "park_borough": "QUEENS",
+      "latitude": "40.735928068595165",
+      "longitude": "-73.88212086343775",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -73.882120863438,
+          40.735928068595
+        ]
+      }
+    },
+    {
       "unique_key": "70437049",
       "created_date": "2026-09-16T11:43:03.000",
       "agency": "HPD",
@@ -299944,43 +299981,6 @@
         "coordinates": [
           -73.890522778389,
           40.673484686397
-        ]
-      }
-    },
-    {
-      "unique_key": "70443359",
-      "created_date": "2026-09-16T11:43:03.000",
-      "agency": "HPD",
-      "agency_name": "Department of Housing Preservation and Development",
-      "complaint_type": "PAINT/PLASTER",
-      "descriptor": "CEILING",
-      "descriptor_2": "COLLAPSING OR FALLING",
-      "location_type": "RESIDENTIAL BUILDING",
-      "incident_zip": "11373",
-      "incident_address": "51-60 VAN KLEECK STREET",
-      "street_name": "VAN KLEECK STREET",
-      "address_type": "ADDRESS",
-      "city": "ELMHURST",
-      "status": "Open",
-      "resolution_description": "The following complaint conditions are still open. HPD has already attempted to notify the property owner that the condition exists; the tenant should provide access for the owner to make the repair.  HPD may attempt to contact the tenant by phone to verify the correction of the condition or an HPD Inspector may attempt to conduct an inspection.",
-      "resolution_action_updated_date": "2026-09-16T00:00:00.000",
-      "community_board": "04 QUEENS",
-      "council_district": "30",
-      "police_precinct": "Precinct 110",
-      "bbl": "4024730031",
-      "borough": "QUEENS",
-      "x_coordinate_state_plane": "1016918",
-      "y_coordinate_state_plane": "207417",
-      "open_data_channel_type": "ONLINE",
-      "park_facility_name": "Unspecified",
-      "park_borough": "QUEENS",
-      "latitude": "40.735928068595165",
-      "longitude": "-73.88212086343775",
-      "location": {
-        "type": "Point",
-        "coordinates": [
-          -73.882120863438,
-          40.735928068595
         ]
       }
     },
@@ -377123,11 +377123,10 @@
       }
     },
     {
-      "unique_key": "70440705",
+      "unique_key": "70436172",
       "created_date": "2026-09-16T08:58:10.000",
-      "closed_date": "2026-09-16T11:37:41.000",
-      "agency": "NYPD",
-      "agency_name": "New York City Police Department",
+      "agency": "DHS",
+      "agency_name": "Department of Homeless Services",
       "complaint_type": "Encampment",
       "descriptor": "N/A",
       "location_type": "Street/Sidewalk",
@@ -377139,9 +377138,8 @@
       "intersection_street_1": "BROADWAY",
       "intersection_street_2": "WEST 76 STREET",
       "address_type": "INTERSECTION",
-      "status": "Closed",
-      "resolution_description": "The New York City Police Department responded to the complaint and observed an encampment at the noted location. The complaint has been referred to the Department of Homeless Services (DHS) for further action. DHS will inspect the condition and update your service request with more information. Thank you for attention to this matter. We count on New Yorkers like yourself to maintain a safe City, so please let us know if you see other conditions that require our attention.",
-      "resolution_action_updated_date": "2026-09-16T11:37:45.000",
+      "status": "In Progress",
+      "resolution_action_updated_date": "2026-09-16T11:37:48.000",
       "community_board": "07 MANHATTAN",
       "council_district": "06",
       "police_precinct": "Precinct 20",
@@ -377162,10 +377160,11 @@
       }
     },
     {
-      "unique_key": "70436172",
+      "unique_key": "70440705",
       "created_date": "2026-09-16T08:58:10.000",
-      "agency": "DHS",
-      "agency_name": "Department of Homeless Services",
+      "closed_date": "2026-09-16T11:37:41.000",
+      "agency": "NYPD",
+      "agency_name": "New York City Police Department",
       "complaint_type": "Encampment",
       "descriptor": "N/A",
       "location_type": "Street/Sidewalk",
@@ -377177,8 +377176,9 @@
       "intersection_street_1": "BROADWAY",
       "intersection_street_2": "WEST 76 STREET",
       "address_type": "INTERSECTION",
-      "status": "In Progress",
-      "resolution_action_updated_date": "2026-09-16T11:37:48.000",
+      "status": "Closed",
+      "resolution_description": "The New York City Police Department responded to the complaint and observed an encampment at the noted location. The complaint has been referred to the Department of Homeless Services (DHS) for further action. DHS will inspect the condition and update your service request with more information. Thank you for attention to this matter. We count on New Yorkers like yourself to maintain a safe City, so please let us know if you see other conditions that require our attention.",
+      "resolution_action_updated_date": "2026-09-16T11:37:45.000",
       "community_board": "07 MANHATTAN",
       "council_district": "06",
       "police_precinct": "Precinct 20",
