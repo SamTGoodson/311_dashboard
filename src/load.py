@@ -14,6 +14,7 @@ GEO_HISTORY_PATH = "data/community_board_history.csv"
 
 def load_data(path):
     df = pd.read_csv(path)
+    df["date"] = pd.to_datetime(df["date"])
     return df
 
 def check_date(daily_df,history_df):
@@ -23,11 +24,10 @@ def check_date(daily_df,history_df):
     if daily_date > history_last_date:
         history_df = pd.concat([history_df,daily_df])
         logger.info("Appended %d rows", len(daily_df))
-        return history_df
+        return history_df, True
         
     else:
-        logger.info('No new data')
-        return history_df
+        return None, False
     
     
 def main():
@@ -37,8 +37,11 @@ def main():
 
     if Path(COMPLAINT_HISTORY_PATH).exists():
         type_history = load_data(COMPLAINT_HISTORY_PATH)
-        updated_type_history = check_date(type_daily,type_history)
-        updated_type_history.to_csv(COMPLAINT_HISTORY_PATH,index=False)
+        updated_type_history, was_appended = check_date(type_daily,type_history)
+        if was_appended:
+            updated_type_history.to_csv(COMPLAINT_HISTORY_PATH,index=False)
+        else:
+            logger.info('No Borough level data to write')
         
     else:
         type_daily.to_csv(COMPLAINT_HISTORY_PATH, index=False)
@@ -46,8 +49,11 @@ def main():
 
     if Path(GEO_HISTORY_PATH).exists():
         geo_history = load_data(GEO_HISTORY_PATH)
-        updated_geo_history = check_date(geo_daily,geo_history)
-        updated_geo_history.to_csv(GEO_HISTORY_PATH,index=False)
+        updated_geo_history, was_appended = check_date(geo_daily,geo_history)
+        if was_appended:
+            updated_geo_history.to_csv(GEO_HISTORY_PATH,index=False)
+        else:
+            logger.info('No CB level data to write')
 
     else:
         geo_daily.to_csv(GEO_HISTORY_PATH, index=False)

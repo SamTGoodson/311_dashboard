@@ -11209,45 +11209,6 @@
       }
     },
     {
-      "unique_key": "70432744",
-      "created_date": "2026-09-17T00:29:30.000",
-      "agency": "NYPD",
-      "agency_name": "New York City Police Department",
-      "complaint_type": "Illegal Parking",
-      "descriptor": "Blocked Hydrant",
-      "location_type": "Street/Sidewalk",
-      "incident_zip": "11385",
-      "incident_address": "66-51 60 PLACE",
-      "street_name": "60 PLACE",
-      "cross_street_1": "WOODBINE STREET",
-      "cross_street_2": "MADISON STREET",
-      "intersection_street_1": "WOODBINE STREET",
-      "intersection_street_2": "MADISON STREET",
-      "address_type": "ADDRESS",
-      "city": "RIDGEWOOD",
-      "landmark": "60 PLACE",
-      "status": "In Progress",
-      "community_board": "05 QUEENS",
-      "council_district": "30",
-      "police_precinct": "Precinct 104",
-      "bbl": "4035290006",
-      "borough": "QUEENS",
-      "x_coordinate_state_plane": "1011853",
-      "y_coordinate_state_plane": "196749",
-      "open_data_channel_type": "MOBILE",
-      "park_facility_name": "Unspecified",
-      "park_borough": "QUEENS",
-      "latitude": "40.70666426047773",
-      "longitude": "-73.90044113155523",
-      "location": {
-        "type": "Point",
-        "coordinates": [
-          -73.900441131555,
-          40.706664260478
-        ]
-      }
-    },
-    {
       "unique_key": "70436629",
       "created_date": "2026-09-17T00:29:30.000",
       "agency": "NYPD",
@@ -11283,6 +11244,45 @@
         "coordinates": [
           -73.90242831255,
           40.876809105151
+        ]
+      }
+    },
+    {
+      "unique_key": "70432744",
+      "created_date": "2026-09-17T00:29:30.000",
+      "agency": "NYPD",
+      "agency_name": "New York City Police Department",
+      "complaint_type": "Illegal Parking",
+      "descriptor": "Blocked Hydrant",
+      "location_type": "Street/Sidewalk",
+      "incident_zip": "11385",
+      "incident_address": "66-51 60 PLACE",
+      "street_name": "60 PLACE",
+      "cross_street_1": "WOODBINE STREET",
+      "cross_street_2": "MADISON STREET",
+      "intersection_street_1": "WOODBINE STREET",
+      "intersection_street_2": "MADISON STREET",
+      "address_type": "ADDRESS",
+      "city": "RIDGEWOOD",
+      "landmark": "60 PLACE",
+      "status": "In Progress",
+      "community_board": "05 QUEENS",
+      "council_district": "30",
+      "police_precinct": "Precinct 104",
+      "bbl": "4035290006",
+      "borough": "QUEENS",
+      "x_coordinate_state_plane": "1011853",
+      "y_coordinate_state_plane": "196749",
+      "open_data_channel_type": "MOBILE",
+      "park_facility_name": "Unspecified",
+      "park_borough": "QUEENS",
+      "latitude": "40.70666426047773",
+      "longitude": "-73.90044113155523",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -73.900441131555,
+          40.706664260478
         ]
       }
     },
@@ -12915,45 +12915,6 @@
       }
     },
     {
-      "unique_key": "70436593",
-      "created_date": "2026-09-17T00:18:39.000",
-      "agency": "NYPD",
-      "agency_name": "New York City Police Department",
-      "complaint_type": "Noise - Street/Sidewalk",
-      "descriptor": "Loud Talking",
-      "location_type": "Street/Sidewalk",
-      "incident_zip": "10453",
-      "incident_address": "30 RICHMAN PLAZA",
-      "street_name": "RICHMAN PLAZA",
-      "cross_street_1": "DEAD END",
-      "cross_street_2": "HARLEM RIVER PARK BRIDGE",
-      "intersection_street_1": "DEAD END",
-      "intersection_street_2": "HARLEM RIVER PARK BRIDGE",
-      "address_type": "ADDRESS",
-      "city": "BRONX",
-      "landmark": "RICHMAN PLAZA",
-      "status": "In Progress",
-      "community_board": "05 BRONX",
-      "council_district": "16",
-      "police_precinct": "Precinct 46",
-      "bbl": "2028820229",
-      "borough": "BRONX",
-      "x_coordinate_state_plane": "1005687",
-      "y_coordinate_state_plane": "249694",
-      "open_data_channel_type": "MOBILE",
-      "park_facility_name": "Unspecified",
-      "park_borough": "BRONX",
-      "latitude": "40.85200128682642",
-      "longitude": "-73.92251180442457",
-      "location": {
-        "type": "Point",
-        "coordinates": [
-          -73.922511804425,
-          40.852001286826
-        ]
-      }
-    },
-    {
       "unique_key": "70443561",
       "created_date": "2026-09-17T00:18:39.000",
       "agency": "NYPD",
@@ -12989,6 +12950,45 @@
         "coordinates": [
           -73.937687113221,
           40.762381512908
+        ]
+      }
+    },
+    {
+      "unique_key": "70436593",
+      "created_date": "2026-09-17T00:18:39.000",
+      "agency": "NYPD",
+      "agency_name": "New York City Police Department",
+      "complaint_type": "Noise - Street/Sidewalk",
+      "descriptor": "Loud Talking",
+      "location_type": "Street/Sidewalk",
+      "incident_zip": "10453",
+      "incident_address": "30 RICHMAN PLAZA",
+      "street_name": "RICHMAN PLAZA",
+      "cross_street_1": "DEAD END",
+      "cross_street_2": "HARLEM RIVER PARK BRIDGE",
+      "intersection_street_1": "DEAD END",
+      "intersection_street_2": "HARLEM RIVER PARK BRIDGE",
+      "address_type": "ADDRESS",
+      "city": "BRONX",
+      "landmark": "RICHMAN PLAZA",
+      "status": "In Progress",
+      "community_board": "05 BRONX",
+      "council_district": "16",
+      "police_precinct": "Precinct 46",
+      "bbl": "2028820229",
+      "borough": "BRONX",
+      "x_coordinate_state_plane": "1005687",
+      "y_coordinate_state_plane": "249694",
+      "open_data_channel_type": "MOBILE",
+      "park_facility_name": "Unspecified",
+      "park_borough": "BRONX",
+      "latitude": "40.85200128682642",
+      "longitude": "-73.92251180442457",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -73.922511804425,
+          40.852001286826
         ]
       }
     },
