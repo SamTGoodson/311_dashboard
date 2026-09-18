@@ -1,0 +1,38 @@
+name: Daily API Check
+
+permissions:
+  contents: write
+
+env:
+  NYC_API_TOKEN: ${{ secrets.NYC_API_TOKEN }}
+  NYC_USERNAME: ${{ secrets.NYC_USERNAME }}
+  NYC_PASSWORD: ${{ secrets.NYC_PASSWORD }}
+
+on:
+  schedule:
+    - cron: '0 15 * * *'
+  workflow_dispatch: 
+
+jobs:
+  fetch-data:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: python orchestrator.py
+      - name: push changes
+        run: |
+            git config --global user.name "github-actions[bot]"
+            git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+            git add data/
+            if ! git diff --cached --quiet; then
+                git commit -m "chore: automated file update [skip ci]"
+                git push origin HEAD:${{ github.ref }}
+            else
+                echo "No changes to commit"
+            fi 
+    
