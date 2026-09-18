@@ -7,8 +7,8 @@ from datetime import datetime, timedelta
 from dotenv import load_dotenv
 from pathlib import Path
 
-env_path = Path.cwd() / ".env"
-load_dotenv(env_path)
+
+
 
 api_token = os.getenv("NYC_API_TOKEN")
 username = os.getenv("NYC_USERNAME")
@@ -19,6 +19,13 @@ DATASET = 'erm2-nwe9'
 print("API token loaded:", bool(api_token))
 print("Username loaded:", bool(username))
 print("Password loaded:", bool(password))
+
+print("Username length:", len(username) if username else 0)
+print("Password length:", len(password) if password else 0)
+print("Username repr:", repr(username))
+
+print("Username has leading/trailing whitespace:", username != username.strip())
+print("Password has leading/trailing whitespace:", password != password.strip())
 
 client = Socrata('data.cityofnewyork.us',
                  api_token,
