@@ -28,8 +28,11 @@ def rolling_avg(filepath,col):
         lambda x: x.rolling(window=2, min_periods=1).mean()
     )
 
-    return df
+    date = df['date'].max()
+    one_row = df[df['date'] == date]
+    one_row['rank'] = one_row.groupby('complaint_type')['rolling_avg'].rank(pct=True) 
 
+    return one_row
 
 def format_cb(df,borough_codes):
     df["board_num"] = pd.to_numeric(

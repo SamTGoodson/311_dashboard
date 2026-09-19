@@ -1,21 +1,21 @@
 window.dashExtensions = Object.assign({}, window.dashExtensions, {
     default: {
         function0: function(feature) {
-                const count = feature.properties.count ?? 0;
+                const pct = feature.properties.rank ?? 0;
 
                 let fillColor;
 
-                if (count <= 0) {
+                if (pct <= 0) {
                     fillColor = "#f7fbff";
-                } else if (count <= 10) {
+                } else if (pct <= 0.5) {
                     fillColor = "#deebf7";
-                } else if (count <= 25) {
+                } else if (pct <= 0.75) {
                     fillColor = "#c6dbef";
-                } else if (count <= 50) {
+                } else if (pct <= 0.9) {
                     fillColor = "#9ecae1";
-                } else if (count <= 100) {
+                } else if (pct <= 0.95) {
                     fillColor = "#6baed6";
-                } else if (count <= 200) {
+                } else if (pct <= 0.99) {
                     fillColor = "#3182bd";
                 } else {
                     fillColor = "#08519c";
@@ -32,7 +32,7 @@ window.dashExtensions = Object.assign({}, window.dashExtensions, {
             ,
         function1: function(feature, layer) {
             const board = feature.properties.NTA;
-            const count = feature.properties.count ?? 0;
+            const count = feature.properties.rolling_avg ?? 0;
 
             layer.bindPopup(
                 "<b>Community Board:</b> " + board +

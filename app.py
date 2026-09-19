@@ -20,34 +20,36 @@ cb_data = pd.read_csv('data/cb_df.csv')
 nta_data = pd.read_csv('data/nta_data.csv')
 
 # add count and nta names to the geojson
-count_lookup = cb_data.set_index("BoroCD")["count"].to_dict()
+count_lookup = cb_data.set_index("BoroCD")["rolling_avg"].to_dict()
+rank_lookup = cb_data.set_index("BoroCD")["rank"].to_dict()
 nta_lookup = nta_data.set_index("BoroCD")["NTA"].to_dict()
 
 for feature in gdf["features"]:
 
     borocd = feature["properties"]["BoroCD"]
 
-    feature["properties"]["count"] = count_lookup.get(borocd)
+    feature["properties"]["rolling_avg"] = count_lookup.get(borocd)
+    feature["properties"]["rank"] = rank_lookup.get(borocd)
     feature["properties"]["NTA"] = nta_lookup.get(borocd)
 
 # add color, improve color scale later
 style_handle = assign("""
 function(feature) {
-    const count = feature.properties.count ?? 0;
+    const pct = feature.properties.rank ?? 0;
 
     let fillColor;
 
-    if (count <= 0) {
+    if (pct <= 0) {
         fillColor = "#f7fbff";
-    } else if (count <= 10) {
+    } else if (pct <= 0.5) {
         fillColor = "#deebf7";
-    } else if (count <= 25) {
+    } else if (pct <= 0.75) {
         fillColor = "#c6dbef";
-    } else if (count <= 50) {
+    } else if (pct <= 0.9) {
         fillColor = "#9ecae1";
-    } else if (count <= 100) {
+    } else if (pct <= 0.95) {
         fillColor = "#6baed6";
-    } else if (count <= 200) {
+    } else if (pct <= 0.99) {
         fillColor = "#3182bd";
     } else {
         fillColor = "#08519c";
@@ -66,7 +68,7 @@ function(feature) {
 popup_handle = assign("""
 function(feature, layer) {
     const board = feature.properties.NTA;
-    const count = feature.properties.count ?? 0;
+    const count = feature.properties.rolling_avg ?? 0;
 
     layer.bindPopup(
         "<b>Community Board:</b> " + board +
@@ -129,7 +131,7 @@ def update_graph(value_chosen):
     fig = px.histogram(
         plot_df,
         x='borough',
-        y='count',
+        y='rolling_avg',
         histfunc='sum'
     )
 
@@ -148,7 +150,7 @@ def update_map(value_chosen):
 
     count_lookup = (
         filtered
-        .groupby('BoroCD')['count']
+        .groupby('BoroCD')['rank']
         .sum()
         .to_dict()
     )
@@ -157,10 +159,13 @@ def update_map(value_chosen):
 
     for feature in map_data["features"]:
         borocd = feature["properties"]["BoroCD"]
-        feature["properties"]["count"] = count_lookup.get(borocd, 0)
+        feature["properties"]["rank"] = rank_lookup.get(borocd, 0)
+        feature["properties"]["rolling_avg"] = count_lookup.get(borocd, 0)
+
+
 
     print(
-        [(f["properties"]["BoroCD"], f["properties"]["count"])
+        [(f["properties"]["BoroCD"], f["properties"]["rank"])
          for f in map_data["features"][:5]]
     )
 
