@@ -41,19 +41,19 @@ function(feature) {
     let fillColor;
 
     if (pct <= 0) {
-        fillColor = "#f7fbff";
+        fillColor = "#ffffcc";
     } else if (pct <= 0.5) {
-        fillColor = "#deebf7";
+        fillColor = "#ffeda0";
     } else if (pct <= 0.75) {
-        fillColor = "#c6dbef";
+        fillColor = "#fed976";
     } else if (pct <= 0.9) {
-        fillColor = "#9ecae1";
+        fillColor = "#feb24c";
     } else if (pct <= 0.95) {
-        fillColor = "#6baed6";
+        fillColor = "#fd8d3c";
     } else if (pct <= 0.99) {
-        fillColor = "#3182bd";
+        fillColor = "#e31a1c";
     } else {
-        fillColor = "#08519c";
+        fillColor = "#b10026";
     }
 
     return {
@@ -74,7 +74,7 @@ function(feature, layer) {
 
     layer.bindPopup(
         "<b>Community Board:</b> " + board +
-        "<br><b>Complaints:</b> " + count +
+        "<br><b>3 Day Rolling Avg. :</b> " + count +
         "<br><b>Rank:</b> " + rank
     );
 }
@@ -84,13 +84,24 @@ function(feature, layer) {
 app = DashProxy()
 app.layout = html.Div(children = [
     html.H2('Daily 311 Complaints'),
-    html.P('Counts updated daily. Select a complaint type to see the count mapped by community board and graphed by borough.'),
+    html.P('This dashboard looks at 311 complaints by community board. ' \
+    'It updates every day with new complaints and takes a rolling average by complaint type. ' \
+    'It also ranks each community board by complaint type. Select a complaint type below to update the map (multiple can be selected), and click a community board to see its rolling average and rank.' \
+    'Below the map you can see a graph of complaint type by borough.',
+           style={
+               "textAlign": "center",
+               "fontFamily": "Georgia, serif"
+           }),
     html.Br(),
-    dcc.Dropdown(
-            id='cat-dropdown',
-            options=[{"label": c.title(), "value": c} for c in df["complaint_type"].unique()],
-            value=['Noise - Residential'],
-            multi=True ),
+    html.Div(
+        dcc.Dropdown(
+                id='cat-dropdown',
+                maxHeight=300,
+                options=[{"label": c.title(), "value": c} for c in df["complaint_type"].unique()],
+                value=['Noise - Residential'],
+                multi=True ),
+                style={"marginLeft": "60px", "marginRight": "60px"}
+    ),
     html.Br(),
     html.Hr(),
     html.Br(),
@@ -112,7 +123,11 @@ app.layout = html.Div(children = [
     html.Br(),
     html.Hr(),
     html.Br(),
-    'Graph by Complaint Type',
+    html.P('Complaint type by borough',
+                      style={
+               "textAlign": "center",
+               "fontFamily": "Georgia, serif"
+           }),
     html.Br(),
     html.Div([
     dcc.Graph(

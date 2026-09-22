@@ -6,19 +6,19 @@ window.dashExtensions = Object.assign({}, window.dashExtensions, {
                 let fillColor;
 
                 if (pct <= 0) {
-                    fillColor = "#f7fbff";
+                    fillColor = "#ffffcc";
                 } else if (pct <= 0.5) {
-                    fillColor = "#deebf7";
+                    fillColor = "#ffeda0";
                 } else if (pct <= 0.75) {
-                    fillColor = "#c6dbef";
+                    fillColor = "#fed976";
                 } else if (pct <= 0.9) {
-                    fillColor = "#9ecae1";
+                    fillColor = "#feb24c";
                 } else if (pct <= 0.95) {
-                    fillColor = "#6baed6";
+                    fillColor = "#fd8d3c";
                 } else if (pct <= 0.99) {
-                    fillColor = "#3182bd";
+                    fillColor = "#e31a1c";
                 } else {
-                    fillColor = "#08519c";
+                    fillColor = "#b10026";
                 }
 
                 return {
