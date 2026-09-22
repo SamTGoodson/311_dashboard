@@ -33,10 +33,12 @@ window.dashExtensions = Object.assign({}, window.dashExtensions, {
         function1: function(feature, layer) {
             const board = feature.properties.NTA;
             const count = feature.properties.rolling_avg ?? 0;
+            const rank = feature.properties.rank ?? 0;
 
             layer.bindPopup(
                 "<b>Community Board:</b> " + board +
-                "<br><b>Complaints:</b> " + count
+                "<br><b>Complaints:</b> " + count +
+                "<br><b>Rank:</b> " + rank
             );
         }
 

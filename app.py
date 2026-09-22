@@ -20,16 +20,17 @@ cb_data = pd.read_csv('data/cb_df.csv')
 nta_data = pd.read_csv('data/nta_data.csv')
 
 # add count and nta names to the geojson
-count_lookup = cb_data.set_index("BoroCD")["rolling_avg"].to_dict()
-rank_lookup = cb_data.set_index("BoroCD")["rank"].to_dict()
+count_lookup = cb_data.set_index(["BoroCD", "complaint_type"])["rolling_avg"].to_dict()
+rank_lookup = cb_data.set_index(["BoroCD", "complaint_type"])["rank"].to_dict()
 nta_lookup = nta_data.set_index("BoroCD")["NTA"].to_dict()
 
 for feature in gdf["features"]:
 
     borocd = feature["properties"]["BoroCD"]
+    selected_complaint_type = "Noise - Residential"
 
-    feature["properties"]["rolling_avg"] = count_lookup.get(borocd)
-    feature["properties"]["rank"] = rank_lookup.get(borocd)
+    feature["properties"]["rolling_avg"] = count_lookup.get((borocd,selected_complaint_type))
+    feature["properties"]["rank"] = rank_lookup.get((borocd,selected_complaint_type))
     feature["properties"]["NTA"] = nta_lookup.get(borocd)
 
 # add color, improve color scale later
@@ -69,10 +70,12 @@ popup_handle = assign("""
 function(feature, layer) {
     const board = feature.properties.NTA;
     const count = feature.properties.rolling_avg ?? 0;
+    const rank = feature.properties.rank ?? 0;
 
     layer.bindPopup(
         "<b>Community Board:</b> " + board +
-        "<br><b>Complaints:</b> " + count
+        "<br><b>Complaints:</b> " + count +
+        "<br><b>Rank:</b> " + rank
     );
 }
 """)
@@ -85,7 +88,7 @@ app.layout = html.Div(children = [
     html.Br(),
     dcc.Dropdown(
             id='cat-dropdown',
-            options=[{"label": c, "value": c} for c in df["complaint_type"].unique()],
+            options=[{"label": c.title(), "value": c} for c in df["complaint_type"].unique()],
             value=['Noise - Residential'],
             multi=True ),
     html.Br(),
@@ -150,10 +153,18 @@ def update_map(value_chosen):
 
     count_lookup = (
         filtered
-        .groupby('BoroCD')['rank']
+        .groupby('BoroCD')['rolling_avg']
         .sum()
         .to_dict()
     )
+
+    rank_lookup = (
+        filtered
+        .groupby('BoroCD')['rank']
+        .mean()
+        .to_dict()
+    )
+
 
     map_data = copy.deepcopy(gdf)
 
@@ -161,13 +172,6 @@ def update_map(value_chosen):
         borocd = feature["properties"]["BoroCD"]
         feature["properties"]["rank"] = rank_lookup.get(borocd, 0)
         feature["properties"]["rolling_avg"] = count_lookup.get(borocd, 0)
-
-
-
-    print(
-        [(f["properties"]["BoroCD"], f["properties"]["rank"])
-         for f in map_data["features"][:5]]
-    )
 
     return map_data
 if __name__ == "__main__":

@@ -30,7 +30,7 @@ def rolling_avg(filepath,col):
 
     date = df['date'].max()
     one_row = df[df['date'] == date]
-    one_row['rank'] = one_row.groupby('complaint_type')['rolling_avg'].rank(pct=True) 
+    one_row['rank'] = round(one_row.groupby('complaint_type')['rolling_avg'].rank(pct=True),2) 
 
     return one_row
 
