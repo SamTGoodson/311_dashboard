@@ -11,12 +11,20 @@ from dash_extensions.javascript import assign
 
 import plotly.express as px
 
+# Functions
+def rank(df):
+    date = df['date'].max()
+    one_row = df[df['date'] == date]
+    one_row['rank'] = round(one_row.groupby('complaint_type')['rolling_avg'].rank(pct=True),2) 
+    return one_row
+
 
 # load data
 with open("data/community_boards.geojson") as f: 
     gdf = geojson.load(f)
 df = pd.read_csv('data/borough_df.csv')
-cb_data = pd.read_csv('data/cb_df.csv')
+cb_raw = pd.read_csv('data/cb_df.csv')
+cb_data = rank(cb_raw)
 nta_data = pd.read_csv('data/nta_data.csv')
 
 # add count and nta names to the geojson
@@ -123,7 +131,13 @@ app.layout = html.Div(children = [
     html.Br(),
     html.Hr(),
     html.Br(),
-    html.P('Complaint type by borough',
+    html.Div(
+        dcc.Graph(
+            figure={},
+            id='biggest-shifts'
+        )
+    ),
+    html.P('Complaint type by Borough',
                       style={
                "textAlign": "center",
                "fontFamily": "Georgia, serif"
@@ -155,6 +169,32 @@ def update_graph(value_chosen):
 
     return fig
 
+#big shifts callback
+@callback(
+        Output('biggest-shifts', 'figure'),
+        Input('cat-dropdown', 'value')
+)
+def shift_graph(value_chosen):
+    df = cb_raw[cb_raw['complaint_type'].isin(value_chosen)]
+
+    id_max = df.groupby('community_board')['rolling_avg'].idxmax()
+    max_df = df.loc[id_max][['community_board','rolling_avg']]
+    max_df.rename(columns={'rolling_avg':'cb_max'},inplace=True)
+
+    id_min = df.groupby('community_board')['rolling_avg'].idxmin()
+    min_df = df.loc[id_min][['community_board','rolling_avg']]
+    min_df.rename(columns={'rolling_avg':'cb_min'},inplace=True)
+
+    joined = max_df.merge(min_df)
+    joined['shift'] = joined['cb_max'] - joined['cb_min']
+
+    highest_df = joined.loc[joined['shift'].abs().idxmax()]
+    biggest_cb = highest_df['community_board']
+    df = df[df['community_board'] == biggest_cb]
+
+    fig = px.line(df, x="date", y="rolling_avg", title=f"{value_chosen} in {biggest_cb}")
+
+    return fig
 #map callback
 @callback(
     Output('complaint-map', 'data'),

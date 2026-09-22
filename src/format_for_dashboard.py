@@ -20,6 +20,7 @@ def load_data(filepath):
 
 def rolling_avg(filepath,col):
     df = load_data(filepath)
+    
     df = df.sort_values(
     [col, "complaint_type", "date"]
     ).reset_index(drop=True)
@@ -28,13 +29,11 @@ def rolling_avg(filepath,col):
         lambda x: x.rolling(window=2, min_periods=1).mean()
     )
 
-    date = df['date'].max()
-    one_row = df[df['date'] == date]
-    one_row['rank'] = round(one_row.groupby('complaint_type')['rolling_avg'].rank(pct=True),2) 
 
-    return one_row
+    return df
 
 def format_cb(df,borough_codes):
+    df = df[~df['community_board'].str.contains('Unspecified', na=False)]
     df["board_num"] = pd.to_numeric(
     df["community_board"].str.extract(r"(\d+)")[0],
     errors="coerce"

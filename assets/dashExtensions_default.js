@@ -37,7 +37,7 @@ window.dashExtensions = Object.assign({}, window.dashExtensions, {
 
             layer.bindPopup(
                 "<b>Community Board:</b> " + board +
-                "<br><b>Complaints:</b> " + count +
+                "<br><b>3 Day Rolling Avg. :</b> " + count +
                 "<br><b>Rank:</b> " + rank
             );
         }
