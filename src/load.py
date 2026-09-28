@@ -19,10 +19,12 @@ def load_data(path):
 
 def check_date(daily_df,history_df):
     history_last_date = history_df['date'].max()
+    cutoff = pd.Timestamp.now() - pd.Timedelta(days=31)
     daily_date = daily_df['date'].max()
 
     if daily_date > history_last_date:
         history_df = pd.concat([history_df,daily_df])
+        history_df = history_df[history_df['date'] > cutoff]
         logger.info("Appended %d rows", len(daily_df))
         return history_df, True
         
