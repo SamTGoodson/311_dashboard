@@ -87,7 +87,7 @@ function(feature, layer) {
     );
 }
 """)
-
+TEXT_STYLE = {"textAlign": "center", "fontFamily": "Georgia, serif",'fontSize': '18px'}
 #app
 app = DashProxy()
 app.layout = html.Div(children = [
@@ -96,22 +96,22 @@ app.layout = html.Div(children = [
                "textAlign": "center",
                "fontFamily": "Georgia, serif"
            }),
-    html.P(['This dashboard looks at 311 complaints by complaint type and by Community Board (CB). ' \
-    'It updates every day with new complaints, and it is on a day delay. ' ,
-    html.Br(),
-    html.Br(),
-    'For the map and graphs below it takes a 3 day rolling average by CB and complaint type, and it then ranks every CB by percentile on that complaint type. That percentile ranking is then mapped below. ' \
-    'Select a complaint type below to update the map (multiple complaints can be selected at one time), and click a CB to see its rolling average and rank. ' ,
-    html.Br(),
-    html.Br(),
-    'Below the map there are several graphs corresponding to the complaint type(s) you selected. ' \
-    'The first is of the community board with the largest change in rolling avg.  in the selected complaint type(s) during the time period covered in the data (eventually this will be 30 days). ' \
-    'Below that is a graph that allows you to select a CB and see how the rolling average of complaints has changed over the time represented in the data. ' \
-    'Finally, there is a bar chart of the sum of complaints by Borough. '],
-           style={
-               "textAlign": "center",
-               "fontFamily": "Georgia, serif"
-           }),
+html.P(['This dashboard looks at 311 complaints by complaint type and by Community Board (CB). '
+        'It updates every day and uses data with a one-day delay. ',
+        html.Br(),
+        html.Br(),
+        'The map and graphs below use a 3-day rolling average by CB and complaint type, and the map then ranks every CB by percentile on that complaint type. '
+        'Select one or more complaint types below to update the map, and click a CB to see its rolling average and rank. ',
+        html.Br(),
+        html.Br(),
+        'Below the map there are three graphs corresponding to the complaint types you selected: '],
+       style={ "fontFamily": "Georgia, serif",'fontSize': '18px', "textAlign": "left",  "margin": "0 auto"}),
+       html.Br(),
+html.Ul([
+    html.Li('The rolling average of the selected complaint type in the CB with the biggest net change in that complaint type. '),
+    html.Li('The rolling average of the selected complaint type in a chosen CB. '),
+    html.Li('A bar chart that compares the rate of complaints per 100,000 residents by borough. ')],
+       style={ "fontFamily": "Georgia, serif",'fontSize': '18px', "textAlign": "left",  "margin": "0 auto"}),
     html.Br(),
     html.Div(
         dcc.Dropdown(
@@ -143,11 +143,8 @@ app.layout = html.Div(children = [
     html.Br(),
     html.Hr(),
     html.Br(),
-    html.P('This graph shows the CB with the largest change in the selected complaint type.',
-                      style={
-               "textAlign": "center",
-               "fontFamily": "Georgia, serif"
-           }),
+    html.P('The CB with the largest net change in the selected complaint type during the data period.',
+                      style=TEXT_STYLE),
     html.Div(
         dcc.Graph(
             figure={},
@@ -158,10 +155,7 @@ app.layout = html.Div(children = [
     html.Hr(),
     html.Br(),
     html.P('Pick any CB from the list to see how the complaint type selected above has changed over the period represented in the data.',
-                      style={
-               "textAlign": "center",
-               "fontFamily": "Georgia, serif"
-           }),
+                      style=TEXT_STYLE),
     html.Div(
         dcc.Dropdown(
             id='cb-dropdown',
@@ -178,11 +172,8 @@ app.layout = html.Div(children = [
     html.Br(),
     html.Hr(),
     html.Br(),
-    html.P('This graph shows the sum of the selected complaint type by Borough.',
-                      style={
-               "textAlign": "center",
-               "fontFamily": "Georgia, serif"
-           }),
+    html.P('Complaints per 100,000 residents by borough.',
+                      style=TEXT_STYLE),
     html.Br(),
     html.Div([
     dcc.Graph(
@@ -201,14 +192,14 @@ app.layout = html.Div(children = [
 def update_graph(value_chosen):
     plot_df = df[df['complaint_type'].isin(value_chosen)]
 
-    fig = px.histogram(
+    fig = px.bar(
         plot_df,
         x='borough',
-        y='rolling_avg',
-        histfunc='sum',
+        y='rate',
+        color = 'complaint_type',
         labels={
                 "borough": "Borough",
-                "rolling_avg": "3-Day Rolling Avg."
+                "rate": "Rate per 100,000"
                 }
     )
     fig.update_layout(

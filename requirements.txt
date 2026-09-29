@@ -6,6 +6,7 @@ dash-svg==0.0.12
 dash_ag_grid==35.3.0
 Flask-Caching==2.5.1
 geopandas==1.1.4
+gunicorn==23.0.0
 matplotlib==3.11.2
 numpy==2.4.6
 pandas==3.0.5

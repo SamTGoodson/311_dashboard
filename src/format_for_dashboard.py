@@ -12,6 +12,15 @@ borough_codes = {
     "STATEN ISLAND": 5,
 }
 
+borough_pop = {
+    'BRONX' : '1500000',
+    'BROOKLYN' : '2700000',
+    'QUEENS' : '2400000',
+    'MANHATTAN' : '1600000',
+    'STATEN ISLAND' :'496000'
+}
+
+
 
 def load_data(filepath):
     df = pd.read_csv(filepath)
@@ -30,6 +39,13 @@ def rolling_avg(filepath,col):
     )
 
 
+    return df
+
+def calculate_rate(df,pop):
+    df = df[df['date'] == df['date'].max()]
+    df['pop'] = df['borough'].map(pop)
+    df['pop'] = df['pop'].astype('Int64')
+    df['rate'] = ((df['rolling_avg'] / df['pop']) * 100000).round(2)
     return df
 
 def format_cb(df,borough_codes):
@@ -56,6 +72,7 @@ def format_cb(df,borough_codes):
 
 def main():
     borough_df = rolling_avg(BOROUGH_TYPE,'borough')
+    borough_df = calculate_rate(borough_df,borough_pop)
     cb_df = rolling_avg(CB_TYPE,'community_board')
     formatted_cb_df = format_cb(cb_df,borough_codes)
 
