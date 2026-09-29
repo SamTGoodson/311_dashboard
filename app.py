@@ -90,6 +90,8 @@ function(feature, layer) {
 TEXT_STYLE = {"textAlign": "center", "fontFamily": "Georgia, serif",'fontSize': '18px'}
 #app
 app = DashProxy()
+server = app.server
+
 app.layout = html.Div(children = [
     html.H2('Daily 311 Complaints',           
             style={
