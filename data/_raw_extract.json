@@ -9795,26 +9795,6 @@
       }
     },
     {
-      "unique_key": "70556451",
-      "created_date": "2026-09-28T00:36:00.000",
-      "agency": "DOT",
-      "agency_name": "Department of Transportation",
-      "complaint_type": "Traffic Signal Condition",
-      "descriptor": "Ped Multiple Lamps",
-      "descriptor_2": "Operating Improperly",
-      "intersection_street_1": "BOSTON RD",
-      "intersection_street_2": "TREMONT AVE EAST",
-      "address_type": "INTERSECTION",
-      "facility_type": "N/A",
-      "status": "Open",
-      "community_board": "Unspecified BRONX",
-      "police_precinct": "Unspecified",
-      "borough": "BRONX",
-      "open_data_channel_type": "UNKNOWN",
-      "park_facility_name": "Unspecified",
-      "park_borough": "BRONX"
-    },
-    {
       "unique_key": "70560938",
       "created_date": "2026-09-28T00:36:00.000",
       "closed_date": "2026-09-28T00:50:49.000",
@@ -9855,6 +9835,26 @@
           40.634890099646
         ]
       }
+    },
+    {
+      "unique_key": "70556451",
+      "created_date": "2026-09-28T00:36:00.000",
+      "agency": "DOT",
+      "agency_name": "Department of Transportation",
+      "complaint_type": "Traffic Signal Condition",
+      "descriptor": "Ped Multiple Lamps",
+      "descriptor_2": "Operating Improperly",
+      "intersection_street_1": "BOSTON RD",
+      "intersection_street_2": "TREMONT AVE EAST",
+      "address_type": "INTERSECTION",
+      "facility_type": "N/A",
+      "status": "Open",
+      "community_board": "Unspecified BRONX",
+      "police_precinct": "Unspecified",
+      "borough": "BRONX",
+      "open_data_channel_type": "UNKNOWN",
+      "park_facility_name": "Unspecified",
+      "park_borough": "BRONX"
     },
     {
       "unique_key": "70556606",
@@ -12901,42 +12901,6 @@
       }
     },
     {
-      "unique_key": "70556580",
-      "created_date": "2026-09-28T00:16:08.000",
-      "agency": "NYPD",
-      "agency_name": "New York City Police Department",
-      "complaint_type": "Illegal Parking",
-      "descriptor": "Posted Parking Sign Violation",
-      "location_type": "Street/Sidewalk",
-      "incident_zip": "10452",
-      "incident_address": "WEST 165 STREET",
-      "street_name": "WEST 165 STREET",
-      "cross_street_1": "WEST 165 STREET",
-      "cross_street_2": "WOODYCREST AVENUE",
-      "intersection_street_1": "WEST 165 STREET",
-      "intersection_street_2": "WOODYCREST AVENUE",
-      "address_type": "INTERSECTION",
-      "status": "In Progress",
-      "community_board": "04 BRONX",
-      "council_district": "16",
-      "police_precinct": "Precinct 44",
-      "borough": "BRONX",
-      "x_coordinate_state_plane": "1004449",
-      "y_coordinate_state_plane": "243104",
-      "open_data_channel_type": "PHONE",
-      "park_facility_name": "Unspecified",
-      "park_borough": "BRONX",
-      "latitude": "40.83391659000601",
-      "longitude": "-73.92700664298943",
-      "location": {
-        "type": "Point",
-        "coordinates": [
-          -73.927006642989,
-          40.833916590006
-        ]
-      }
-    },
-    {
       "unique_key": "70564400",
       "created_date": "2026-09-28T00:16:08.000",
       "agency": "NYPD",
@@ -12973,6 +12937,42 @@
         "coordinates": [
           -73.809839872215,
           40.713549404062
+        ]
+      }
+    },
+    {
+      "unique_key": "70556580",
+      "created_date": "2026-09-28T00:16:08.000",
+      "agency": "NYPD",
+      "agency_name": "New York City Police Department",
+      "complaint_type": "Illegal Parking",
+      "descriptor": "Posted Parking Sign Violation",
+      "location_type": "Street/Sidewalk",
+      "incident_zip": "10452",
+      "incident_address": "WEST 165 STREET",
+      "street_name": "WEST 165 STREET",
+      "cross_street_1": "WEST 165 STREET",
+      "cross_street_2": "WOODYCREST AVENUE",
+      "intersection_street_1": "WEST 165 STREET",
+      "intersection_street_2": "WOODYCREST AVENUE",
+      "address_type": "INTERSECTION",
+      "status": "In Progress",
+      "community_board": "04 BRONX",
+      "council_district": "16",
+      "police_precinct": "Precinct 44",
+      "borough": "BRONX",
+      "x_coordinate_state_plane": "1004449",
+      "y_coordinate_state_plane": "243104",
+      "open_data_channel_type": "PHONE",
+      "park_facility_name": "Unspecified",
+      "park_borough": "BRONX",
+      "latitude": "40.83391659000601",
+      "longitude": "-73.92700664298943",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -73.927006642989,
+          40.833916590006
         ]
       }
     },
@@ -35778,48 +35778,6 @@
       }
     },
     {
-      "unique_key": "70563197",
-      "created_date": "2026-09-27T22:26:14.000",
-      "closed_date": "2026-09-28T00:09:02.000",
-      "agency": "NYPD",
-      "agency_name": "New York City Police Department",
-      "complaint_type": "Noise - Residential",
-      "descriptor": "Loud Music/Party",
-      "location_type": "Residential Building/House",
-      "incident_zip": "11366",
-      "incident_address": "77-30 170 STREET",
-      "street_name": "170 STREET",
-      "cross_street_1": "77 ROAD",
-      "cross_street_2": "UNION TURNPIKE",
-      "intersection_street_1": "77 ROAD",
-      "intersection_street_2": "UNION TURNPIKE",
-      "address_type": "ADDRESS",
-      "city": "FRESH MEADOWS",
-      "landmark": "170 STREET",
-      "status": "Closed",
-      "resolution_description": "The New York City Police Department responded to the complaint and with the information available observed no evidence of a criminal violation at that time. If the problem persists, please contact 311 to create another complaint. If possible, provide contact information so responding officers may reach out to you for more details. If necessary, your complaint may be referred to your local precinct's special operations units (Quality of Life, etc.). We count on New Yorkers like yourself to maintain a safe City, so please let us know if you see other conditions that require our attention.",
-      "resolution_action_updated_date": "2026-09-28T00:09:29.000",
-      "community_board": "08 QUEENS",
-      "council_district": "24",
-      "police_precinct": "Precinct 107",
-      "bbl": "4070050049",
-      "borough": "QUEENS",
-      "x_coordinate_state_plane": "1040047",
-      "y_coordinate_state_plane": "203153",
-      "open_data_channel_type": "ONLINE",
-      "park_facility_name": "Unspecified",
-      "park_borough": "QUEENS",
-      "latitude": "40.72410879130385",
-      "longitude": "-73.79869782375359",
-      "location": {
-        "type": "Point",
-        "coordinates": [
-          -73.798697823754,
-          40.724108791304
-        ]
-      }
-    },
-    {
       "unique_key": "70563269",
       "created_date": "2026-09-27T22:26:14.000",
       "closed_date": "2026-09-27T22:56:19.000",
@@ -35858,6 +35816,48 @@
         "coordinates": [
           -73.864365548741,
           40.751084267395
+        ]
+      }
+    },
+    {
+      "unique_key": "70563197",
+      "created_date": "2026-09-27T22:26:14.000",
+      "closed_date": "2026-09-28T00:09:02.000",
+      "agency": "NYPD",
+      "agency_name": "New York City Police Department",
+      "complaint_type": "Noise - Residential",
+      "descriptor": "Loud Music/Party",
+      "location_type": "Residential Building/House",
+      "incident_zip": "11366",
+      "incident_address": "77-30 170 STREET",
+      "street_name": "170 STREET",
+      "cross_street_1": "77 ROAD",
+      "cross_street_2": "UNION TURNPIKE",
+      "intersection_street_1": "77 ROAD",
+      "intersection_street_2": "UNION TURNPIKE",
+      "address_type": "ADDRESS",
+      "city": "FRESH MEADOWS",
+      "landmark": "170 STREET",
+      "status": "Closed",
+      "resolution_description": "The New York City Police Department responded to the complaint and with the information available observed no evidence of a criminal violation at that time. If the problem persists, please contact 311 to create another complaint. If possible, provide contact information so responding officers may reach out to you for more details. If necessary, your complaint may be referred to your local precinct's special operations units (Quality of Life, etc.). We count on New Yorkers like yourself to maintain a safe City, so please let us know if you see other conditions that require our attention.",
+      "resolution_action_updated_date": "2026-09-28T00:09:29.000",
+      "community_board": "08 QUEENS",
+      "council_district": "24",
+      "police_precinct": "Precinct 107",
+      "bbl": "4070050049",
+      "borough": "QUEENS",
+      "x_coordinate_state_plane": "1040047",
+      "y_coordinate_state_plane": "203153",
+      "open_data_channel_type": "ONLINE",
+      "park_facility_name": "Unspecified",
+      "park_borough": "QUEENS",
+      "latitude": "40.72410879130385",
+      "longitude": "-73.79869782375359",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -73.798697823754,
+          40.724108791304
         ]
       }
     },
@@ -39474,48 +39474,6 @@
       }
     },
     {
-      "unique_key": "70557823",
-      "created_date": "2026-09-27T22:14:59.000",
-      "closed_date": "2026-09-28T00:13:32.000",
-      "agency": "NYPD",
-      "agency_name": "New York City Police Department",
-      "complaint_type": "Blocked Driveway",
-      "descriptor": "No Access",
-      "location_type": "Street/Sidewalk",
-      "incident_zip": "11228",
-      "incident_address": "8834 15 AVENUE",
-      "street_name": "15 AVENUE",
-      "cross_street_1": "BATH AVENUE",
-      "cross_street_2": "CROPSEY AVENUE",
-      "intersection_street_1": "BATH AVENUE",
-      "intersection_street_2": "CROPSEY AVENUE",
-      "address_type": "ADDRESS",
-      "city": "BROOKLYN",
-      "landmark": "15 AVENUE",
-      "status": "Closed",
-      "resolution_description": "The New York City Police Department responded to the complaint and their investigation determined that police action was not necessary. If the problem persists, please contact 311 to create another complaint. If possible, provide contact information so responding officers may reach out to you for more details. We count on New Yorkers like yourself to maintain a safe City, so please let us know if you see other conditions that require our attention.",
-      "resolution_action_updated_date": "2026-09-28T00:13:37.000",
-      "community_board": "11 BROOKLYN",
-      "council_district": "50",
-      "police_precinct": "Precinct 62",
-      "bbl": "3064260069",
-      "borough": "BROOKLYN",
-      "x_coordinate_state_plane": "980296",
-      "y_coordinate_state_plane": "160377",
-      "open_data_channel_type": "ONLINE",
-      "park_facility_name": "Unspecified",
-      "park_borough": "BROOKLYN",
-      "latitude": "40.606873279641135",
-      "longitude": "-74.01424001984485",
-      "location": {
-        "type": "Point",
-        "coordinates": [
-          -74.014240019845,
-          40.606873279641
-        ]
-      }
-    },
-    {
       "unique_key": "70560034",
       "created_date": "2026-09-27T22:14:59.000",
       "closed_date": "2026-09-27T23:06:41.000",
@@ -39554,6 +39512,48 @@
         "coordinates": [
           -73.897495073199,
           40.818789958333
+        ]
+      }
+    },
+    {
+      "unique_key": "70557823",
+      "created_date": "2026-09-27T22:14:59.000",
+      "closed_date": "2026-09-28T00:13:32.000",
+      "agency": "NYPD",
+      "agency_name": "New York City Police Department",
+      "complaint_type": "Blocked Driveway",
+      "descriptor": "No Access",
+      "location_type": "Street/Sidewalk",
+      "incident_zip": "11228",
+      "incident_address": "8834 15 AVENUE",
+      "street_name": "15 AVENUE",
+      "cross_street_1": "BATH AVENUE",
+      "cross_street_2": "CROPSEY AVENUE",
+      "intersection_street_1": "BATH AVENUE",
+      "intersection_street_2": "CROPSEY AVENUE",
+      "address_type": "ADDRESS",
+      "city": "BROOKLYN",
+      "landmark": "15 AVENUE",
+      "status": "Closed",
+      "resolution_description": "The New York City Police Department responded to the complaint and their investigation determined that police action was not necessary. If the problem persists, please contact 311 to create another complaint. If possible, provide contact information so responding officers may reach out to you for more details. We count on New Yorkers like yourself to maintain a safe City, so please let us know if you see other conditions that require our attention.",
+      "resolution_action_updated_date": "2026-09-28T00:13:37.000",
+      "community_board": "11 BROOKLYN",
+      "council_district": "50",
+      "police_precinct": "Precinct 62",
+      "bbl": "3064260069",
+      "borough": "BROOKLYN",
+      "x_coordinate_state_plane": "980296",
+      "y_coordinate_state_plane": "160377",
+      "open_data_channel_type": "ONLINE",
+      "park_facility_name": "Unspecified",
+      "park_borough": "BROOKLYN",
+      "latitude": "40.606873279641135",
+      "longitude": "-74.01424001984485",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -74.014240019845,
+          40.606873279641
         ]
       }
     },
@@ -46395,6 +46395,45 @@
       }
     },
     {
+      "unique_key": "70564897",
+      "created_date": "2026-09-27T21:48:10.000",
+      "agency": "NYPD",
+      "agency_name": "New York City Police Department",
+      "complaint_type": "Noise - Residential",
+      "descriptor": "Banging/Pounding",
+      "location_type": "Residential Building/House",
+      "incident_zip": "11209",
+      "incident_address": "334 87 STREET",
+      "street_name": "87 STREET",
+      "cross_street_1": "3 AVENUE",
+      "cross_street_2": "4 AVENUE",
+      "intersection_street_1": "3 AVENUE",
+      "intersection_street_2": "4 AVENUE",
+      "address_type": "ADDRESS",
+      "city": "BROOKLYN",
+      "landmark": "87 STREET",
+      "status": "In Progress",
+      "community_board": "10 BROOKLYN",
+      "council_district": "47",
+      "police_precinct": "Precinct 68",
+      "bbl": "3060490018",
+      "borough": "BROOKLYN",
+      "x_coordinate_state_plane": "975839",
+      "y_coordinate_state_plane": "166060",
+      "open_data_channel_type": "MOBILE",
+      "park_facility_name": "Unspecified",
+      "park_borough": "BROOKLYN",
+      "latitude": "40.62246882965694",
+      "longitude": "-74.03029863286665",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -74.030298632867,
+          40.622468829657
+        ]
+      }
+    },
+    {
       "unique_key": "70558871",
       "created_date": "2026-09-27T21:48:10.000",
       "agency": "DEP",
@@ -46431,45 +46470,6 @@
         "coordinates": [
           -74.147582690355,
           40.536808755522
-        ]
-      }
-    },
-    {
-      "unique_key": "70564897",
-      "created_date": "2026-09-27T21:48:10.000",
-      "agency": "NYPD",
-      "agency_name": "New York City Police Department",
-      "complaint_type": "Noise - Residential",
-      "descriptor": "Banging/Pounding",
-      "location_type": "Residential Building/House",
-      "incident_zip": "11209",
-      "incident_address": "334 87 STREET",
-      "street_name": "87 STREET",
-      "cross_street_1": "3 AVENUE",
-      "cross_street_2": "4 AVENUE",
-      "intersection_street_1": "3 AVENUE",
-      "intersection_street_2": "4 AVENUE",
-      "address_type": "ADDRESS",
-      "city": "BROOKLYN",
-      "landmark": "87 STREET",
-      "status": "In Progress",
-      "community_board": "10 BROOKLYN",
-      "council_district": "47",
-      "police_precinct": "Precinct 68",
-      "bbl": "3060490018",
-      "borough": "BROOKLYN",
-      "x_coordinate_state_plane": "975839",
-      "y_coordinate_state_plane": "166060",
-      "open_data_channel_type": "MOBILE",
-      "park_facility_name": "Unspecified",
-      "park_borough": "BROOKLYN",
-      "latitude": "40.62246882965694",
-      "longitude": "-74.03029863286665",
-      "location": {
-        "type": "Point",
-        "coordinates": [
-          -74.030298632867,
-          40.622468829657
         ]
       }
     },
@@ -50124,46 +50124,6 @@
       }
     },
     {
-      "unique_key": "70557893",
-      "created_date": "2026-09-27T21:35:06.000",
-      "agency": "DOT",
-      "agency_name": "Department of Transportation",
-      "complaint_type": "Street Condition",
-      "descriptor": "Failed Street Repair",
-      "descriptor_2": "N/A",
-      "location_type": "Street",
-      "incident_zip": "11236",
-      "incident_address": "924 RALPH AVENUE",
-      "street_name": "RALPH AVENUE",
-      "cross_street_1": "CHURCH AVENUE",
-      "cross_street_2": "EAST 88 STREET",
-      "intersection_street_1": "CHURCH AVENUE",
-      "intersection_street_2": "EAST 88 STREET",
-      "address_type": "ADDRESS",
-      "city": "BROOKLYN",
-      "landmark": "RALPH AVENUE",
-      "status": "In Progress",
-      "community_board": "17 BROOKLYN",
-      "council_district": "42",
-      "police_precinct": "Precinct 67",
-      "bbl": "3047070046",
-      "borough": "BROOKLYN",
-      "x_coordinate_state_plane": "1006249",
-      "y_coordinate_state_plane": "176797",
-      "open_data_channel_type": "ONLINE",
-      "park_facility_name": "Unspecified",
-      "park_borough": "BROOKLYN",
-      "latitude": "40.65191627278116",
-      "longitude": "-73.92071883230729",
-      "location": {
-        "type": "Point",
-        "coordinates": [
-          -73.920718832307,
-          40.651916272781
-        ]
-      }
-    },
-    {
       "unique_key": "70557303",
       "created_date": "2026-09-27T21:35:06.000",
       "closed_date": "2026-09-27T22:16:40.000",
@@ -50203,6 +50163,46 @@
         "coordinates": [
           -73.789964590997,
           40.696263962694
+        ]
+      }
+    },
+    {
+      "unique_key": "70557893",
+      "created_date": "2026-09-27T21:35:06.000",
+      "agency": "DOT",
+      "agency_name": "Department of Transportation",
+      "complaint_type": "Street Condition",
+      "descriptor": "Failed Street Repair",
+      "descriptor_2": "N/A",
+      "location_type": "Street",
+      "incident_zip": "11236",
+      "incident_address": "924 RALPH AVENUE",
+      "street_name": "RALPH AVENUE",
+      "cross_street_1": "CHURCH AVENUE",
+      "cross_street_2": "EAST 88 STREET",
+      "intersection_street_1": "CHURCH AVENUE",
+      "intersection_street_2": "EAST 88 STREET",
+      "address_type": "ADDRESS",
+      "city": "BROOKLYN",
+      "landmark": "RALPH AVENUE",
+      "status": "In Progress",
+      "community_board": "17 BROOKLYN",
+      "council_district": "42",
+      "police_precinct": "Precinct 67",
+      "bbl": "3047070046",
+      "borough": "BROOKLYN",
+      "x_coordinate_state_plane": "1006249",
+      "y_coordinate_state_plane": "176797",
+      "open_data_channel_type": "ONLINE",
+      "park_facility_name": "Unspecified",
+      "park_borough": "BROOKLYN",
+      "latitude": "40.65191627278116",
+      "longitude": "-73.92071883230729",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -73.920718832307,
+          40.651916272781
         ]
       }
     },
@@ -51574,46 +51574,6 @@
       }
     },
     {
-      "unique_key": "70563057",
-      "created_date": "2026-09-27T21:28:19.000",
-      "agency": "DPR",
-      "agency_name": "Department of Parks and Recreation",
-      "complaint_type": "Damaged Tree",
-      "descriptor": "Branch or Limb Has Fallen Down",
-      "descriptor_2": "Fell on Vehicle",
-      "location_type": "Street",
-      "incident_zip": "11368",
-      "incident_address": "108-21 47 AVENUE",
-      "street_name": "47 AVENUE",
-      "cross_street_1": "108 STREET",
-      "cross_street_2": "109 STREET",
-      "intersection_street_1": "108 STREET",
-      "intersection_street_2": "109 STREET",
-      "address_type": "ADDRESS",
-      "city": "CORONA",
-      "landmark": "47 AVENUE",
-      "status": "In Progress",
-      "community_board": "04 QUEENS",
-      "council_district": "21",
-      "police_precinct": "Precinct 110",
-      "bbl": "4020020025",
-      "borough": "QUEENS",
-      "x_coordinate_state_plane": "1024093",
-      "y_coordinate_state_plane": "211364",
-      "open_data_channel_type": "ONLINE",
-      "park_facility_name": "Unspecified",
-      "park_borough": "QUEENS",
-      "latitude": "40.746732174565594",
-      "longitude": "-73.856207273051",
-      "location": {
-        "type": "Point",
-        "coordinates": [
-          -73.856207273051,
-          40.746732174566
-        ]
-      }
-    },
-    {
       "unique_key": "70564470",
       "created_date": "2026-09-27T21:28:19.000",
       "closed_date": "2026-09-27T21:47:30.000",
@@ -51653,6 +51613,46 @@
         "coordinates": [
           -73.878359620955,
           40.754423786977
+        ]
+      }
+    },
+    {
+      "unique_key": "70563057",
+      "created_date": "2026-09-27T21:28:19.000",
+      "agency": "DPR",
+      "agency_name": "Department of Parks and Recreation",
+      "complaint_type": "Damaged Tree",
+      "descriptor": "Branch or Limb Has Fallen Down",
+      "descriptor_2": "Fell on Vehicle",
+      "location_type": "Street",
+      "incident_zip": "11368",
+      "incident_address": "108-21 47 AVENUE",
+      "street_name": "47 AVENUE",
+      "cross_street_1": "108 STREET",
+      "cross_street_2": "109 STREET",
+      "intersection_street_1": "108 STREET",
+      "intersection_street_2": "109 STREET",
+      "address_type": "ADDRESS",
+      "city": "CORONA",
+      "landmark": "47 AVENUE",
+      "status": "In Progress",
+      "community_board": "04 QUEENS",
+      "council_district": "21",
+      "police_precinct": "Precinct 110",
+      "bbl": "4020020025",
+      "borough": "QUEENS",
+      "x_coordinate_state_plane": "1024093",
+      "y_coordinate_state_plane": "211364",
+      "open_data_channel_type": "ONLINE",
+      "park_facility_name": "Unspecified",
+      "park_borough": "QUEENS",
+      "latitude": "40.746732174565594",
+      "longitude": "-73.856207273051",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -73.856207273051,
+          40.746732174566
         ]
       }
     },
@@ -57914,45 +57914,6 @@
       }
     },
     {
-      "unique_key": "70558986",
-      "created_date": "2026-09-27T21:03:49.000",
-      "agency": "NYPD",
-      "agency_name": "New York City Police Department",
-      "complaint_type": "Illegal Parking",
-      "descriptor": "Commercial Overnight Parking",
-      "location_type": "Street/Sidewalk",
-      "incident_zip": "11214",
-      "incident_address": "1920 80 STREET",
-      "street_name": "80 STREET",
-      "cross_street_1": "19 AVENUE",
-      "cross_street_2": "20 AVENUE",
-      "intersection_street_1": "19 AVENUE",
-      "intersection_street_2": "20 AVENUE",
-      "address_type": "ADDRESS",
-      "city": "BROOKLYN",
-      "landmark": "80 STREET",
-      "status": "In Progress",
-      "community_board": "11 BROOKLYN",
-      "council_district": "38",
-      "police_precinct": "Precinct 62",
-      "bbl": "3062860014",
-      "borough": "BROOKLYN",
-      "x_coordinate_state_plane": "985282",
-      "y_coordinate_state_plane": "161129",
-      "open_data_channel_type": "MOBILE",
-      "park_facility_name": "Unspecified",
-      "park_borough": "BROOKLYN",
-      "latitude": "40.60893818769382",
-      "longitude": "-73.99628321826864",
-      "location": {
-        "type": "Point",
-        "coordinates": [
-          -73.996283218269,
-          40.608938187694
-        ]
-      }
-    },
-    {
       "unique_key": "70561798",
       "created_date": "2026-09-27T21:03:49.000",
       "agency": "DPR",
@@ -57989,6 +57950,45 @@
         "coordinates": [
           -73.980879306475,
           40.634633394129
+        ]
+      }
+    },
+    {
+      "unique_key": "70558986",
+      "created_date": "2026-09-27T21:03:49.000",
+      "agency": "NYPD",
+      "agency_name": "New York City Police Department",
+      "complaint_type": "Illegal Parking",
+      "descriptor": "Commercial Overnight Parking",
+      "location_type": "Street/Sidewalk",
+      "incident_zip": "11214",
+      "incident_address": "1920 80 STREET",
+      "street_name": "80 STREET",
+      "cross_street_1": "19 AVENUE",
+      "cross_street_2": "20 AVENUE",
+      "intersection_street_1": "19 AVENUE",
+      "intersection_street_2": "20 AVENUE",
+      "address_type": "ADDRESS",
+      "city": "BROOKLYN",
+      "landmark": "80 STREET",
+      "status": "In Progress",
+      "community_board": "11 BROOKLYN",
+      "council_district": "38",
+      "police_precinct": "Precinct 62",
+      "bbl": "3062860014",
+      "borough": "BROOKLYN",
+      "x_coordinate_state_plane": "985282",
+      "y_coordinate_state_plane": "161129",
+      "open_data_channel_type": "MOBILE",
+      "park_facility_name": "Unspecified",
+      "park_borough": "BROOKLYN",
+      "latitude": "40.60893818769382",
+      "longitude": "-73.99628321826864",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -73.996283218269,
+          40.608938187694
         ]
       }
     },
@@ -58864,45 +58864,6 @@
       }
     },
     {
-      "unique_key": "70557783",
-      "created_date": "2026-09-27T21:01:22.000",
-      "agency": "NYPD",
-      "agency_name": "New York City Police Department",
-      "complaint_type": "Noise - Residential",
-      "descriptor": "Loud Talking",
-      "location_type": "Residential Building/House",
-      "incident_zip": "10468",
-      "incident_address": "2730 SEDGWICK AVENUE",
-      "street_name": "SEDGWICK AVENUE",
-      "cross_street_1": "WEST KINGSBRIDGE ROAD",
-      "cross_street_2": "WEST 195 STREET",
-      "intersection_street_1": "WEST KINGSBRIDGE ROAD",
-      "intersection_street_2": "WEST 195 STREET",
-      "address_type": "ADDRESS",
-      "city": "BRONX",
-      "landmark": "SEDGWICK AVENUE",
-      "status": "In Progress",
-      "community_board": "08 BRONX",
-      "council_district": "14",
-      "police_precinct": "Precinct 50",
-      "bbl": "2032480150",
-      "borough": "BRONX",
-      "x_coordinate_state_plane": "1011138",
-      "y_coordinate_state_plane": "256394",
-      "open_data_channel_type": "ONLINE",
-      "park_facility_name": "Unspecified",
-      "park_borough": "BRONX",
-      "latitude": "40.87037583951205",
-      "longitude": "-73.90278124333975",
-      "location": {
-        "type": "Point",
-        "coordinates": [
-          -73.90278124334,
-          40.870375839512
-        ]
-      }
-    },
-    {
       "unique_key": "70557819",
       "created_date": "2026-09-27T21:01:22.000",
       "closed_date": "2026-09-28T00:35:30.000",
@@ -58941,6 +58902,45 @@
         "coordinates": [
           -73.982247652949,
           40.610413576462
+        ]
+      }
+    },
+    {
+      "unique_key": "70557783",
+      "created_date": "2026-09-27T21:01:22.000",
+      "agency": "NYPD",
+      "agency_name": "New York City Police Department",
+      "complaint_type": "Noise - Residential",
+      "descriptor": "Loud Talking",
+      "location_type": "Residential Building/House",
+      "incident_zip": "10468",
+      "incident_address": "2730 SEDGWICK AVENUE",
+      "street_name": "SEDGWICK AVENUE",
+      "cross_street_1": "WEST KINGSBRIDGE ROAD",
+      "cross_street_2": "WEST 195 STREET",
+      "intersection_street_1": "WEST KINGSBRIDGE ROAD",
+      "intersection_street_2": "WEST 195 STREET",
+      "address_type": "ADDRESS",
+      "city": "BRONX",
+      "landmark": "SEDGWICK AVENUE",
+      "status": "In Progress",
+      "community_board": "08 BRONX",
+      "council_district": "14",
+      "police_precinct": "Precinct 50",
+      "bbl": "2032480150",
+      "borough": "BRONX",
+      "x_coordinate_state_plane": "1011138",
+      "y_coordinate_state_plane": "256394",
+      "open_data_channel_type": "ONLINE",
+      "park_facility_name": "Unspecified",
+      "park_borough": "BRONX",
+      "latitude": "40.87037583951205",
+      "longitude": "-73.90278124333975",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -73.90278124334,
+          40.870375839512
         ]
       }
     },
@@ -65460,45 +65460,6 @@
       }
     },
     {
-      "unique_key": "70558504",
-      "created_date": "2026-09-27T20:33:53.000",
-      "agency": "NYPD",
-      "agency_name": "New York City Police Department",
-      "complaint_type": "Noise - Street/Sidewalk",
-      "descriptor": "Loud Talking",
-      "location_type": "Street/Sidewalk",
-      "incident_zip": "11419",
-      "incident_address": "104-31 125 STREET",
-      "street_name": "125 STREET",
-      "cross_street_1": "LIBERTY AVENUE",
-      "cross_street_2": "107 AVENUE",
-      "intersection_street_1": "LIBERTY AVENUE",
-      "intersection_street_2": "107 AVENUE",
-      "address_type": "ADDRESS",
-      "city": "SOUTH RICHMOND HILL",
-      "landmark": "125 STREET",
-      "status": "In Progress",
-      "community_board": "10 QUEENS",
-      "council_district": "28",
-      "police_precinct": "Precinct 106",
-      "bbl": "4095790079",
-      "borough": "QUEENS",
-      "x_coordinate_state_plane": "1034409",
-      "y_coordinate_state_plane": "189891",
-      "open_data_channel_type": "MOBILE",
-      "park_facility_name": "Unspecified",
-      "park_borough": "QUEENS",
-      "latitude": "40.687741571818684",
-      "longitude": "-73.81913710090254",
-      "location": {
-        "type": "Point",
-        "coordinates": [
-          -73.819137100903,
-          40.687741571819
-        ]
-      }
-    },
-    {
       "unique_key": "70559075",
       "created_date": "2026-09-27T20:33:53.000",
       "closed_date": "2026-09-27T21:03:12.000",
@@ -65537,6 +65498,45 @@
         "coordinates": [
           -73.911686578306,
           40.682615532132
+        ]
+      }
+    },
+    {
+      "unique_key": "70558504",
+      "created_date": "2026-09-27T20:33:53.000",
+      "agency": "NYPD",
+      "agency_name": "New York City Police Department",
+      "complaint_type": "Noise - Street/Sidewalk",
+      "descriptor": "Loud Talking",
+      "location_type": "Street/Sidewalk",
+      "incident_zip": "11419",
+      "incident_address": "104-31 125 STREET",
+      "street_name": "125 STREET",
+      "cross_street_1": "LIBERTY AVENUE",
+      "cross_street_2": "107 AVENUE",
+      "intersection_street_1": "LIBERTY AVENUE",
+      "intersection_street_2": "107 AVENUE",
+      "address_type": "ADDRESS",
+      "city": "SOUTH RICHMOND HILL",
+      "landmark": "125 STREET",
+      "status": "In Progress",
+      "community_board": "10 QUEENS",
+      "council_district": "28",
+      "police_precinct": "Precinct 106",
+      "bbl": "4095790079",
+      "borough": "QUEENS",
+      "x_coordinate_state_plane": "1034409",
+      "y_coordinate_state_plane": "189891",
+      "open_data_channel_type": "MOBILE",
+      "park_facility_name": "Unspecified",
+      "park_borough": "QUEENS",
+      "latitude": "40.687741571818684",
+      "longitude": "-73.81913710090254",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -73.819137100903,
+          40.687741571819
         ]
       }
     },
@@ -73952,33 +73952,6 @@
       }
     },
     {
-      "unique_key": "70557944",
-      "created_date": "2026-09-27T20:02:10.000",
-      "closed_date": "2026-09-27T20:17:35.000",
-      "agency": "NYPD",
-      "agency_name": "New York City Police Department",
-      "complaint_type": "Illegal Parking",
-      "descriptor": "Blocked Hydrant",
-      "location_type": "Street/Sidewalk",
-      "incident_zip": "11207",
-      "incident_address": "HALSEY STREET",
-      "street_name": "HALSEY STREET",
-      "cross_street_1": "EVERGREEN AVENUE",
-      "cross_street_2": "CENTRAL AVENUE",
-      "intersection_street_1": "EVERGREEN AVENUE",
-      "intersection_street_2": "CENTRAL AVENUE",
-      "address_type": "BLOCKFACE",
-      "status": "Closed",
-      "resolution_description": "The New York City Police Department responded to the complaint and their investigation determined that a violation of law occurred. Police issued a summons in response to the complaint. Thank you for attention to this matter. We count on New Yorkers like yourself to maintain a safe City, so please let us know if you see other conditions that require our attention.",
-      "resolution_action_updated_date": "2026-09-27T20:17:39.000",
-      "community_board": "Unspecified BROOKLYN",
-      "police_precinct": "Precinct 83",
-      "borough": "BROOKLYN",
-      "open_data_channel_type": "ONLINE",
-      "park_facility_name": "Unspecified",
-      "park_borough": "BROOKLYN"
-    },
-    {
       "unique_key": "70562077",
       "created_date": "2026-09-27T20:02:10.000",
       "closed_date": "2026-09-27T20:25:26.000",
@@ -74019,6 +73992,33 @@
           40.723988497642
         ]
       }
+    },
+    {
+      "unique_key": "70557944",
+      "created_date": "2026-09-27T20:02:10.000",
+      "closed_date": "2026-09-27T20:17:35.000",
+      "agency": "NYPD",
+      "agency_name": "New York City Police Department",
+      "complaint_type": "Illegal Parking",
+      "descriptor": "Blocked Hydrant",
+      "location_type": "Street/Sidewalk",
+      "incident_zip": "11207",
+      "incident_address": "HALSEY STREET",
+      "street_name": "HALSEY STREET",
+      "cross_street_1": "EVERGREEN AVENUE",
+      "cross_street_2": "CENTRAL AVENUE",
+      "intersection_street_1": "EVERGREEN AVENUE",
+      "intersection_street_2": "CENTRAL AVENUE",
+      "address_type": "BLOCKFACE",
+      "status": "Closed",
+      "resolution_description": "The New York City Police Department responded to the complaint and their investigation determined that a violation of law occurred. Police issued a summons in response to the complaint. Thank you for attention to this matter. We count on New Yorkers like yourself to maintain a safe City, so please let us know if you see other conditions that require our attention.",
+      "resolution_action_updated_date": "2026-09-27T20:17:39.000",
+      "community_board": "Unspecified BROOKLYN",
+      "police_precinct": "Precinct 83",
+      "borough": "BROOKLYN",
+      "open_data_channel_type": "ONLINE",
+      "park_facility_name": "Unspecified",
+      "park_borough": "BROOKLYN"
     },
     {
       "unique_key": "70560304",
@@ -164639,46 +164639,6 @@
       }
     },
     {
-      "unique_key": "70561748",
-      "created_date": "2026-09-27T15:01:55.000",
-      "agency": "DOHMH",
-      "agency_name": "Department of Health and Mental Hygiene",
-      "complaint_type": "Rodent",
-      "descriptor": "Rat Sighting",
-      "descriptor_2": "N/A",
-      "location_type": "3+ Family Apt. Building",
-      "incident_zip": "11373",
-      "incident_address": "87-01 51 AVENUE",
-      "street_name": "51 AVENUE",
-      "cross_street_1": "87 STREET",
-      "cross_street_2": "90 STREET",
-      "intersection_street_1": "87 STREET",
-      "intersection_street_2": "90 STREET",
-      "address_type": "ADDRESS",
-      "city": "ELMHURST",
-      "landmark": "51 AVENUE",
-      "status": "In Progress",
-      "community_board": "04 QUEENS",
-      "council_district": "25",
-      "police_precinct": "Precinct 110",
-      "bbl": "4018350095",
-      "borough": "QUEENS",
-      "x_coordinate_state_plane": "1018578",
-      "y_coordinate_state_plane": "208538",
-      "open_data_channel_type": "ONLINE",
-      "park_facility_name": "Unspecified",
-      "park_borough": "QUEENS",
-      "latitude": "40.73899864597547",
-      "longitude": "-73.87612521080872",
-      "location": {
-        "type": "Point",
-        "coordinates": [
-          -73.876125210809,
-          40.738998645975
-        ]
-      }
-    },
-    {
       "unique_key": "70558213",
       "created_date": "2026-09-27T15:01:55.000",
       "agency": "HPD",
@@ -164897,6 +164857,46 @@
         "coordinates": [
           -73.928689213597,
           40.852098590678
+        ]
+      }
+    },
+    {
+      "unique_key": "70561748",
+      "created_date": "2026-09-27T15:01:55.000",
+      "agency": "DOHMH",
+      "agency_name": "Department of Health and Mental Hygiene",
+      "complaint_type": "Rodent",
+      "descriptor": "Rat Sighting",
+      "descriptor_2": "N/A",
+      "location_type": "3+ Family Apt. Building",
+      "incident_zip": "11373",
+      "incident_address": "87-01 51 AVENUE",
+      "street_name": "51 AVENUE",
+      "cross_street_1": "87 STREET",
+      "cross_street_2": "90 STREET",
+      "intersection_street_1": "87 STREET",
+      "intersection_street_2": "90 STREET",
+      "address_type": "ADDRESS",
+      "city": "ELMHURST",
+      "landmark": "51 AVENUE",
+      "status": "In Progress",
+      "community_board": "04 QUEENS",
+      "council_district": "25",
+      "police_precinct": "Precinct 110",
+      "bbl": "4018350095",
+      "borough": "QUEENS",
+      "x_coordinate_state_plane": "1018578",
+      "y_coordinate_state_plane": "208538",
+      "open_data_channel_type": "ONLINE",
+      "park_facility_name": "Unspecified",
+      "park_borough": "QUEENS",
+      "latitude": "40.73899864597547",
+      "longitude": "-73.87612521080872",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -73.876125210809,
+          40.738998645975
         ]
       }
     },
@@ -190452,46 +190452,6 @@
       }
     },
     {
-      "unique_key": "70563077",
-      "created_date": "2026-09-27T13:50:41.000",
-      "agency": "DPR",
-      "agency_name": "Department of Parks and Recreation",
-      "complaint_type": "Damaged Tree",
-      "descriptor": "Branch or Limb Has Fallen Down",
-      "descriptor_2": "Blocking Sidewalk",
-      "location_type": "Street",
-      "incident_zip": "11414",
-      "incident_address": "159-45 92 STREET",
-      "street_name": "92 STREET",
-      "cross_street_1": "159 AVENUE",
-      "cross_street_2": "160 AVENUE",
-      "intersection_street_1": "159 AVENUE",
-      "intersection_street_2": "160 AVENUE",
-      "address_type": "ADDRESS",
-      "city": "HOWARD BEACH",
-      "landmark": "92 STREET",
-      "status": "In Progress",
-      "community_board": "10 QUEENS",
-      "council_district": "32",
-      "police_precinct": "Precinct 106",
-      "bbl": "4140130096",
-      "borough": "QUEENS",
-      "x_coordinate_state_plane": "1028459",
-      "y_coordinate_state_plane": "179138",
-      "open_data_channel_type": "ONLINE",
-      "park_facility_name": "Unspecified",
-      "park_borough": "QUEENS",
-      "latitude": "40.65825876935944",
-      "longitude": "-73.84066203771096",
-      "location": {
-        "type": "Point",
-        "coordinates": [
-          -73.840662037711,
-          40.658258769359
-        ]
-      }
-    },
-    {
       "unique_key": "70558637",
       "created_date": "2026-09-27T13:50:41.000",
       "closed_date": "2026-09-27T17:58:56.000",
@@ -190572,6 +190532,46 @@
         "coordinates": [
           -73.72796820038,
           40.73012267047
+        ]
+      }
+    },
+    {
+      "unique_key": "70563077",
+      "created_date": "2026-09-27T13:50:41.000",
+      "agency": "DPR",
+      "agency_name": "Department of Parks and Recreation",
+      "complaint_type": "Damaged Tree",
+      "descriptor": "Branch or Limb Has Fallen Down",
+      "descriptor_2": "Blocking Sidewalk",
+      "location_type": "Street",
+      "incident_zip": "11414",
+      "incident_address": "159-45 92 STREET",
+      "street_name": "92 STREET",
+      "cross_street_1": "159 AVENUE",
+      "cross_street_2": "160 AVENUE",
+      "intersection_street_1": "159 AVENUE",
+      "intersection_street_2": "160 AVENUE",
+      "address_type": "ADDRESS",
+      "city": "HOWARD BEACH",
+      "landmark": "92 STREET",
+      "status": "In Progress",
+      "community_board": "10 QUEENS",
+      "council_district": "32",
+      "police_precinct": "Precinct 106",
+      "bbl": "4140130096",
+      "borough": "QUEENS",
+      "x_coordinate_state_plane": "1028459",
+      "y_coordinate_state_plane": "179138",
+      "open_data_channel_type": "ONLINE",
+      "park_facility_name": "Unspecified",
+      "park_borough": "QUEENS",
+      "latitude": "40.65825876935944",
+      "longitude": "-73.84066203771096",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -73.840662037711,
+          40.658258769359
         ]
       }
     },
@@ -321786,43 +321786,6 @@
       }
     },
     {
-      "unique_key": "70557591",
-      "created_date": "2026-09-27T07:23:00.000",
-      "closed_date": "2026-09-27T07:23:00.000",
-      "agency": "DOB",
-      "agency_name": "Department of Buildings",
-      "complaint_type": "Boilers",
-      "descriptor": "Boiler - Defective/Inoperative/No Permit",
-      "incident_zip": "10035",
-      "incident_address": "2167 3 AVENUE",
-      "street_name": "3 AVENUE",
-      "address_type": "ADDRESS",
-      "city": "NEW YORK",
-      "facility_type": "N/A",
-      "status": "Open",
-      "resolution_description": "Your Service Request has been submitted to the Department of Buildings.  Please check back later for status.",
-      "resolution_action_updated_date": "2026-09-27T00:00:00.000",
-      "community_board": "11 MANHATTAN",
-      "council_district": "08",
-      "police_precinct": "Precinct 25",
-      "bbl": "1017830001",
-      "borough": "MANHATTAN",
-      "x_coordinate_state_plane": "1001147",
-      "y_coordinate_state_plane": "230506",
-      "open_data_channel_type": "UNKNOWN",
-      "park_facility_name": "Unspecified",
-      "park_borough": "MANHATTAN",
-      "latitude": "40.79934555639047",
-      "longitude": "-73.9389708315924",
-      "location": {
-        "type": "Point",
-        "coordinates": [
-          -73.938970831592,
-          40.79934555639
-        ]
-      }
-    },
-    {
       "unique_key": "70559234",
       "created_date": "2026-09-27T07:23:00.000",
       "agency": "HPD",
@@ -321856,6 +321819,43 @@
         "coordinates": [
           -73.892113911072,
           40.844269726419
+        ]
+      }
+    },
+    {
+      "unique_key": "70557591",
+      "created_date": "2026-09-27T07:23:00.000",
+      "closed_date": "2026-09-27T07:23:00.000",
+      "agency": "DOB",
+      "agency_name": "Department of Buildings",
+      "complaint_type": "Boilers",
+      "descriptor": "Boiler - Defective/Inoperative/No Permit",
+      "incident_zip": "10035",
+      "incident_address": "2167 3 AVENUE",
+      "street_name": "3 AVENUE",
+      "address_type": "ADDRESS",
+      "city": "NEW YORK",
+      "facility_type": "N/A",
+      "status": "Open",
+      "resolution_description": "Your Service Request has been submitted to the Department of Buildings.  Please check back later for status.",
+      "resolution_action_updated_date": "2026-09-27T00:00:00.000",
+      "community_board": "11 MANHATTAN",
+      "council_district": "08",
+      "police_precinct": "Precinct 25",
+      "bbl": "1017830001",
+      "borough": "MANHATTAN",
+      "x_coordinate_state_plane": "1001147",
+      "y_coordinate_state_plane": "230506",
+      "open_data_channel_type": "UNKNOWN",
+      "park_facility_name": "Unspecified",
+      "park_borough": "MANHATTAN",
+      "latitude": "40.79934555639047",
+      "longitude": "-73.9389708315924",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -73.938970831592,
+          40.79934555639
         ]
       }
     },
@@ -327861,48 +327861,6 @@
       }
     },
     {
-      "unique_key": "70562111",
-      "created_date": "2026-09-27T06:37:25.000",
-      "closed_date": "2026-09-27T16:46:34.000",
-      "agency": "NYPD",
-      "agency_name": "New York City Police Department",
-      "complaint_type": "Noise - Commercial",
-      "descriptor": "Loud Music/Party",
-      "location_type": "Store/Commercial",
-      "incident_zip": "11372",
-      "incident_address": "37-71 79 STREET",
-      "street_name": "79 STREET",
-      "cross_street_1": "37 AVENUE",
-      "cross_street_2": "ROOSEVELT AVENUE",
-      "intersection_street_1": "37 AVENUE",
-      "intersection_street_2": "ROOSEVELT AVENUE",
-      "address_type": "ADDRESS",
-      "city": "JACKSON HEIGHTS",
-      "landmark": "79 STREET",
-      "status": "Closed",
-      "resolution_description": "The New York City Police Department responded to the complaint and with the information available observed no evidence of a criminal violation at that time. If the problem persists, please contact 311 to create another complaint. If possible, provide contact information so responding officers may reach out to you for more details. If necessary, your complaint may be referred to your local precinct's special operations units (Quality of Life, etc.). We count on New Yorkers like yourself to maintain a safe City, so please let us know if you see other conditions that require our attention.",
-      "resolution_action_updated_date": "2026-09-27T16:46:37.000",
-      "community_board": "03 QUEENS",
-      "council_district": "25",
-      "police_precinct": "Precinct 115",
-      "bbl": "4012900047",
-      "borough": "QUEENS",
-      "x_coordinate_state_plane": "1015554",
-      "y_coordinate_state_plane": "212210",
-      "open_data_channel_type": "PHONE",
-      "park_facility_name": "Unspecified",
-      "park_borough": "QUEENS",
-      "latitude": "40.74908858017093",
-      "longitude": "-73.887020405856",
-      "location": {
-        "type": "Point",
-        "coordinates": [
-          -73.887020405856,
-          40.749088580171
-        ]
-      }
-    },
-    {
       "unique_key": "70559695",
       "created_date": "2026-09-27T06:37:25.000",
       "closed_date": "2026-09-27T12:26:49.000",
@@ -327945,12 +327903,54 @@
       }
     },
     {
-      "unique_key": "70559332",
+      "unique_key": "70562111",
+      "created_date": "2026-09-27T06:37:25.000",
+      "closed_date": "2026-09-27T16:46:34.000",
+      "agency": "NYPD",
+      "agency_name": "New York City Police Department",
+      "complaint_type": "Noise - Commercial",
+      "descriptor": "Loud Music/Party",
+      "location_type": "Store/Commercial",
+      "incident_zip": "11372",
+      "incident_address": "37-71 79 STREET",
+      "street_name": "79 STREET",
+      "cross_street_1": "37 AVENUE",
+      "cross_street_2": "ROOSEVELT AVENUE",
+      "intersection_street_1": "37 AVENUE",
+      "intersection_street_2": "ROOSEVELT AVENUE",
+      "address_type": "ADDRESS",
+      "city": "JACKSON HEIGHTS",
+      "landmark": "79 STREET",
+      "status": "Closed",
+      "resolution_description": "The New York City Police Department responded to the complaint and with the information available observed no evidence of a criminal violation at that time. If the problem persists, please contact 311 to create another complaint. If possible, provide contact information so responding officers may reach out to you for more details. If necessary, your complaint may be referred to your local precinct's special operations units (Quality of Life, etc.). We count on New Yorkers like yourself to maintain a safe City, so please let us know if you see other conditions that require our attention.",
+      "resolution_action_updated_date": "2026-09-27T16:46:37.000",
+      "community_board": "03 QUEENS",
+      "council_district": "25",
+      "police_precinct": "Precinct 115",
+      "bbl": "4012900047",
+      "borough": "QUEENS",
+      "x_coordinate_state_plane": "1015554",
+      "y_coordinate_state_plane": "212210",
+      "open_data_channel_type": "PHONE",
+      "park_facility_name": "Unspecified",
+      "park_borough": "QUEENS",
+      "latitude": "40.74908858017093",
+      "longitude": "-73.887020405856",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -73.887020405856,
+          40.749088580171
+        ]
+      }
+    },
+    {
+      "unique_key": "70557014",
       "created_date": "2026-09-27T06:37:24.000",
       "agency": "HPD",
       "agency_name": "Department of Housing Preservation and Development",
-      "complaint_type": "PLUMBING",
-      "descriptor": "WATER SUPPLY",
+      "complaint_type": "HEAT/HOT WATER",
+      "descriptor": "ENTIRE BUILDING",
       "descriptor_2": "NO HOT WATER",
       "location_type": "RESIDENTIAL BUILDING",
       "incident_zip": "11385",
@@ -327959,7 +327959,7 @@
       "address_type": "ADDRESS",
       "city": "RIDGEWOOD",
       "status": "Open",
-      "resolution_description": "The following complaint conditions are still open. HPD has already attempted to notify the property owner that the condition exists; the tenant should provide access for the owner to make the repair.  HPD may attempt to contact the tenant by phone to verify the correction of the condition or an HPD Inspector may attempt to conduct an inspection.",
+      "resolution_description": "This complaint is a duplicate of a building-wide condition already reported by another tenant.  The original complaint is still open, and HPD may only need to confirm that the condition exists by inspecting one apartment.  If we cannot contact the tenant from the original complaint or get access to that apartment, HPD may attempt to contact the person who filed this complaint to verify the correction of the condition or may conduct an inspection of your unit. You can check HPDONLINE to see if a",
       "resolution_action_updated_date": "2026-09-27T00:00:00.000",
       "community_board": "05 QUEENS",
       "council_district": "34",
@@ -327982,12 +327982,12 @@
       }
     },
     {
-      "unique_key": "70557014",
+      "unique_key": "70559332",
       "created_date": "2026-09-27T06:37:24.000",
       "agency": "HPD",
       "agency_name": "Department of Housing Preservation and Development",
-      "complaint_type": "HEAT/HOT WATER",
-      "descriptor": "ENTIRE BUILDING",
+      "complaint_type": "PLUMBING",
+      "descriptor": "WATER SUPPLY",
       "descriptor_2": "NO HOT WATER",
       "location_type": "RESIDENTIAL BUILDING",
       "incident_zip": "11385",
@@ -327996,7 +327996,7 @@
       "address_type": "ADDRESS",
       "city": "RIDGEWOOD",
       "status": "Open",
-      "resolution_description": "This complaint is a duplicate of a building-wide condition already reported by another tenant.  The original complaint is still open, and HPD may only need to confirm that the condition exists by inspecting one apartment.  If we cannot contact the tenant from the original complaint or get access to that apartment, HPD may attempt to contact the person who filed this complaint to verify the correction of the condition or may conduct an inspection of your unit. You can check HPDONLINE to see if a",
+      "resolution_description": "The following complaint conditions are still open. HPD has already attempted to notify the property owner that the condition exists; the tenant should provide access for the owner to make the repair.  HPD may attempt to contact the tenant by phone to verify the correction of the condition or an HPD Inspector may attempt to conduct an inspection.",
       "resolution_action_updated_date": "2026-09-27T00:00:00.000",
       "community_board": "05 QUEENS",
       "council_district": "34",
@@ -328134,29 +328134,6 @@
       }
     },
     {
-      "unique_key": "70561080",
-      "created_date": "2026-09-27T06:37:00.000",
-      "closed_date": "2026-09-27T07:10:00.000",
-      "agency": "DOT",
-      "agency_name": "Department of Transportation",
-      "complaint_type": "Traffic Signal Condition",
-      "descriptor": "Controller",
-      "descriptor_2": "Emergency (All Out)",
-      "intersection_street_1": "40 ST",
-      "intersection_street_2": "BEACH CHANNEL DR",
-      "address_type": "INTERSECTION",
-      "facility_type": "N/A",
-      "status": "Closed",
-      "resolution_description": "Service Request status for this request is available on the Department of Transportation's website. Please click the \"Learn More\" link below.",
-      "resolution_action_updated_date": "2026-09-27T07:10:00.000",
-      "community_board": "Unspecified QUEENS",
-      "police_precinct": "Unspecified",
-      "borough": "QUEENS",
-      "open_data_channel_type": "UNKNOWN",
-      "park_facility_name": "Unspecified",
-      "park_borough": "QUEENS"
-    },
-    {
       "unique_key": "70559920",
       "created_date": "2026-09-27T06:37:00.000",
       "closed_date": "2026-09-27T08:20:00.000",
@@ -328229,6 +328206,29 @@
           40.606480868539
         ]
       }
+    },
+    {
+      "unique_key": "70561080",
+      "created_date": "2026-09-27T06:37:00.000",
+      "closed_date": "2026-09-27T07:10:00.000",
+      "agency": "DOT",
+      "agency_name": "Department of Transportation",
+      "complaint_type": "Traffic Signal Condition",
+      "descriptor": "Controller",
+      "descriptor_2": "Emergency (All Out)",
+      "intersection_street_1": "40 ST",
+      "intersection_street_2": "BEACH CHANNEL DR",
+      "address_type": "INTERSECTION",
+      "facility_type": "N/A",
+      "status": "Closed",
+      "resolution_description": "Service Request status for this request is available on the Department of Transportation's website. Please click the \"Learn More\" link below.",
+      "resolution_action_updated_date": "2026-09-27T07:10:00.000",
+      "community_board": "Unspecified QUEENS",
+      "police_precinct": "Unspecified",
+      "borough": "QUEENS",
+      "open_data_channel_type": "UNKNOWN",
+      "park_facility_name": "Unspecified",
+      "park_borough": "QUEENS"
     },
     {
       "unique_key": "70558040",
@@ -347426,48 +347426,6 @@
       }
     },
     {
-      "unique_key": "70564325",
-      "created_date": "2026-09-27T02:59:11.000",
-      "closed_date": "2026-09-27T03:24:33.000",
-      "agency": "NYPD",
-      "agency_name": "New York City Police Department",
-      "complaint_type": "Noise - Residential",
-      "descriptor": "Loud Music/Party",
-      "location_type": "Residential Building/House",
-      "incident_zip": "10026",
-      "incident_address": "1370 5 AVENUE",
-      "street_name": "5 AVENUE",
-      "cross_street_1": "EAST 112 STREET",
-      "cross_street_2": "EAST 115 STREET",
-      "intersection_street_1": "EAST 112 STREET",
-      "intersection_street_2": "EAST 115 STREET",
-      "address_type": "ADDRESS",
-      "city": "NEW YORK",
-      "landmark": "5 AVENUE",
-      "status": "Closed",
-      "resolution_description": "The New York City Police Department responded to the complaint and with the information available observed no evidence of a criminal violation at that time. If the problem persists, please contact 311 to create another complaint. If possible, provide contact information so responding officers may reach out to you for more details. If necessary, your complaint may be referred to your local precinct's special operations units (Quality of Life, etc.). We count on New Yorkers like yourself to maintain a safe City, so please let us know if you see other conditions that require our attention.",
-      "resolution_action_updated_date": "2026-09-27T03:24:37.000",
-      "community_board": "10 MANHATTAN",
-      "council_district": "09",
-      "police_precinct": "Precinct 28",
-      "bbl": "1015960001",
-      "borough": "MANHATTAN",
-      "x_coordinate_state_plane": "998718",
-      "y_coordinate_state_plane": "230351",
-      "open_data_channel_type": "PHONE",
-      "park_facility_name": "Unspecified",
-      "park_borough": "MANHATTAN",
-      "latitude": "40.798924434745565",
-      "longitude": "-73.94774430942695",
-      "location": {
-        "type": "Point",
-        "coordinates": [
-          -73.947744309427,
-          40.798924434746
-        ]
-      }
-    },
-    {
       "unique_key": "70562410",
       "created_date": "2026-09-27T02:59:11.000",
       "closed_date": "2026-09-27T09:38:26.000",
@@ -347506,6 +347464,48 @@
         "coordinates": [
           -73.826850228507,
           40.838969777465
+        ]
+      }
+    },
+    {
+      "unique_key": "70564325",
+      "created_date": "2026-09-27T02:59:11.000",
+      "closed_date": "2026-09-27T03:24:33.000",
+      "agency": "NYPD",
+      "agency_name": "New York City Police Department",
+      "complaint_type": "Noise - Residential",
+      "descriptor": "Loud Music/Party",
+      "location_type": "Residential Building/House",
+      "incident_zip": "10026",
+      "incident_address": "1370 5 AVENUE",
+      "street_name": "5 AVENUE",
+      "cross_street_1": "EAST 112 STREET",
+      "cross_street_2": "EAST 115 STREET",
+      "intersection_street_1": "EAST 112 STREET",
+      "intersection_street_2": "EAST 115 STREET",
+      "address_type": "ADDRESS",
+      "city": "NEW YORK",
+      "landmark": "5 AVENUE",
+      "status": "Closed",
+      "resolution_description": "The New York City Police Department responded to the complaint and with the information available observed no evidence of a criminal violation at that time. If the problem persists, please contact 311 to create another complaint. If possible, provide contact information so responding officers may reach out to you for more details. If necessary, your complaint may be referred to your local precinct's special operations units (Quality of Life, etc.). We count on New Yorkers like yourself to maintain a safe City, so please let us know if you see other conditions that require our attention.",
+      "resolution_action_updated_date": "2026-09-27T03:24:37.000",
+      "community_board": "10 MANHATTAN",
+      "council_district": "09",
+      "police_precinct": "Precinct 28",
+      "bbl": "1015960001",
+      "borough": "MANHATTAN",
+      "x_coordinate_state_plane": "998718",
+      "y_coordinate_state_plane": "230351",
+      "open_data_channel_type": "PHONE",
+      "park_facility_name": "Unspecified",
+      "park_borough": "MANHATTAN",
+      "latitude": "40.798924434745565",
+      "longitude": "-73.94774430942695",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -73.947744309427,
+          40.798924434746
         ]
       }
     },
@@ -359122,48 +359122,6 @@
       }
     },
     {
-      "unique_key": "70553977",
-      "created_date": "2026-09-27T01:44:36.000",
-      "closed_date": "2026-09-27T02:00:28.000",
-      "agency": "NYPD",
-      "agency_name": "New York City Police Department",
-      "complaint_type": "Noise - Commercial",
-      "descriptor": "Banging/Pounding",
-      "location_type": "Club/Bar/Restaurant",
-      "incident_zip": "10307",
-      "incident_address": "225 ELLIS STREET",
-      "street_name": "ELLIS STREET",
-      "cross_street_1": "WEIR LANE",
-      "cross_street_2": "MAIN STREET",
-      "intersection_street_1": "WEIR LANE",
-      "intersection_street_2": "MAIN STREET",
-      "address_type": "ADDRESS",
-      "city": "STATEN ISLAND",
-      "landmark": "ELLIS STREET",
-      "status": "Closed",
-      "resolution_description": "The New York City Police Department responded to the complaint and with the information available observed no evidence of a criminal violation at that time. If the problem persists, please contact 311 to create another complaint. If possible, provide contact information so responding officers may reach out to you for more details. If necessary, your complaint may be referred to your local precinct's special operations units (Quality of Life, etc.). We count on New Yorkers like yourself to maintain a safe City, so please let us know if you see other conditions that require our attention.",
-      "resolution_action_updated_date": "2026-09-27T02:00:34.000",
-      "community_board": "03 STATEN ISLAND",
-      "council_district": "51",
-      "police_precinct": "Precinct 123",
-      "bbl": "5079980130",
-      "borough": "STATEN ISLAND",
-      "x_coordinate_state_plane": "915172",
-      "y_coordinate_state_plane": "126929",
-      "open_data_channel_type": "PHONE",
-      "park_facility_name": "Unspecified",
-      "park_borough": "STATEN ISLAND",
-      "latitude": "40.51479698515648",
-      "longitude": "-74.24843667559824",
-      "location": {
-        "type": "Point",
-        "coordinates": [
-          -74.248436675598,
-          40.514796985156
-        ]
-      }
-    },
-    {
       "unique_key": "70552176",
       "created_date": "2026-09-27T01:44:36.000",
       "closed_date": "2026-09-27T02:07:02.000",
@@ -359202,6 +359160,48 @@
         "coordinates": [
           -73.916311181633,
           40.689373873509
+        ]
+      }
+    },
+    {
+      "unique_key": "70553977",
+      "created_date": "2026-09-27T01:44:36.000",
+      "closed_date": "2026-09-27T02:00:28.000",
+      "agency": "NYPD",
+      "agency_name": "New York City Police Department",
+      "complaint_type": "Noise - Commercial",
+      "descriptor": "Banging/Pounding",
+      "location_type": "Club/Bar/Restaurant",
+      "incident_zip": "10307",
+      "incident_address": "225 ELLIS STREET",
+      "street_name": "ELLIS STREET",
+      "cross_street_1": "WEIR LANE",
+      "cross_street_2": "MAIN STREET",
+      "intersection_street_1": "WEIR LANE",
+      "intersection_street_2": "MAIN STREET",
+      "address_type": "ADDRESS",
+      "city": "STATEN ISLAND",
+      "landmark": "ELLIS STREET",
+      "status": "Closed",
+      "resolution_description": "The New York City Police Department responded to the complaint and with the information available observed no evidence of a criminal violation at that time. If the problem persists, please contact 311 to create another complaint. If possible, provide contact information so responding officers may reach out to you for more details. If necessary, your complaint may be referred to your local precinct's special operations units (Quality of Life, etc.). We count on New Yorkers like yourself to maintain a safe City, so please let us know if you see other conditions that require our attention.",
+      "resolution_action_updated_date": "2026-09-27T02:00:34.000",
+      "community_board": "03 STATEN ISLAND",
+      "council_district": "51",
+      "police_precinct": "Precinct 123",
+      "bbl": "5079980130",
+      "borough": "STATEN ISLAND",
+      "x_coordinate_state_plane": "915172",
+      "y_coordinate_state_plane": "126929",
+      "open_data_channel_type": "PHONE",
+      "park_facility_name": "Unspecified",
+      "park_borough": "STATEN ISLAND",
+      "latitude": "40.51479698515648",
+      "longitude": "-74.24843667559824",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -74.248436675598,
+          40.514796985156
         ]
       }
     },
@@ -364263,6 +364263,42 @@
       }
     },
     {
+      "unique_key": "70563888",
+      "created_date": "2026-09-27T01:14:00.000",
+      "agency": "DOT",
+      "agency_name": "Department of Transportation",
+      "complaint_type": "Street Light Condition",
+      "descriptor": "Street Light Lamp Missing",
+      "descriptor_2": "Location Type: Residential Address",
+      "incident_zip": "10469",
+      "incident_address": "1488 NEEDHAM AVENUE",
+      "street_name": "NEEDHAM AVENUE",
+      "cross_street_1": "221 ST E",
+      "cross_street_2": "FENTON AVE",
+      "address_type": "ADDRESS",
+      "city": "BRONX",
+      "status": "Open",
+      "community_board": "12 BRONX",
+      "council_district": "12",
+      "police_precinct": "Precinct 47",
+      "bbl": "2047250016",
+      "borough": "BRONX",
+      "x_coordinate_state_plane": "1026073",
+      "y_coordinate_state_plane": "259840",
+      "open_data_channel_type": "UNKNOWN",
+      "park_facility_name": "Unspecified",
+      "park_borough": "BRONX",
+      "latitude": "40.879775904250586",
+      "longitude": "-73.84875944253257",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -73.848759442533,
+          40.879775904251
+        ]
+      }
+    },
+    {
       "unique_key": "70556320",
       "created_date": "2026-09-27T01:14:00.000",
       "closed_date": "2026-09-27T02:33:02.000",
@@ -364301,42 +364337,6 @@
         "coordinates": [
           -73.930019709621,
           40.858697670037
-        ]
-      }
-    },
-    {
-      "unique_key": "70563888",
-      "created_date": "2026-09-27T01:14:00.000",
-      "agency": "DOT",
-      "agency_name": "Department of Transportation",
-      "complaint_type": "Street Light Condition",
-      "descriptor": "Street Light Lamp Missing",
-      "descriptor_2": "Location Type: Residential Address",
-      "incident_zip": "10469",
-      "incident_address": "1488 NEEDHAM AVENUE",
-      "street_name": "NEEDHAM AVENUE",
-      "cross_street_1": "221 ST E",
-      "cross_street_2": "FENTON AVE",
-      "address_type": "ADDRESS",
-      "city": "BRONX",
-      "status": "Open",
-      "community_board": "12 BRONX",
-      "council_district": "12",
-      "police_precinct": "Precinct 47",
-      "bbl": "2047250016",
-      "borough": "BRONX",
-      "x_coordinate_state_plane": "1026073",
-      "y_coordinate_state_plane": "259840",
-      "open_data_channel_type": "UNKNOWN",
-      "park_facility_name": "Unspecified",
-      "park_borough": "BRONX",
-      "latitude": "40.879775904250586",
-      "longitude": "-73.84875944253257",
-      "location": {
-        "type": "Point",
-        "coordinates": [
-          -73.848759442533,
-          40.879775904251
         ]
       }
     },
@@ -365861,48 +365861,6 @@
       }
     },
     {
-      "unique_key": "70553382",
-      "created_date": "2026-09-27T01:08:00.000",
-      "closed_date": "2026-09-27T02:58:37.000",
-      "agency": "NYPD",
-      "agency_name": "New York City Police Department",
-      "complaint_type": "Noise - Commercial",
-      "descriptor": "Loud Talking",
-      "location_type": "Store/Commercial",
-      "incident_zip": "11238",
-      "incident_address": "925 FULTON STREET",
-      "street_name": "FULTON STREET",
-      "cross_street_1": "CLINTON AVENUE",
-      "cross_street_2": "WAVERLY AVENUE",
-      "intersection_street_1": "CLINTON AVENUE",
-      "intersection_street_2": "WAVERLY AVENUE",
-      "address_type": "ADDRESS",
-      "city": "BROOKLYN",
-      "landmark": "FULTON STREET",
-      "status": "Closed",
-      "resolution_description": "The New York City Police Department responded to the complaint and with the information available observed no evidence of a criminal violation at that time. If the problem persists, please contact 311 to create another complaint. If possible, provide contact information so responding officers may reach out to you for more details. If necessary, your complaint may be referred to your local precinct's special operations units (Quality of Life, etc.). We count on New Yorkers like yourself to maintain a safe City, so please let us know if you see other conditions that require our attention.",
-      "resolution_action_updated_date": "2026-09-27T02:58:42.000",
-      "community_board": "02 BROOKLYN",
-      "council_district": "35",
-      "police_precinct": "Precinct 88",
-      "bbl": "3019770030",
-      "borough": "BROOKLYN",
-      "x_coordinate_state_plane": "993621",
-      "y_coordinate_state_plane": "188240",
-      "open_data_channel_type": "MOBILE",
-      "park_facility_name": "Unspecified",
-      "park_borough": "BROOKLYN",
-      "latitude": "40.683347123333384",
-      "longitude": "-73.96621237713741",
-      "location": {
-        "type": "Point",
-        "coordinates": [
-          -73.966212377137,
-          40.683347123333
-        ]
-      }
-    },
-    {
       "unique_key": "70556959",
       "created_date": "2026-09-27T01:08:00.000",
       "agency": "HPD",
@@ -365973,6 +365931,48 @@
         "coordinates": [
           -74.011746541247,
           40.72232440678
+        ]
+      }
+    },
+    {
+      "unique_key": "70553382",
+      "created_date": "2026-09-27T01:08:00.000",
+      "closed_date": "2026-09-27T02:58:37.000",
+      "agency": "NYPD",
+      "agency_name": "New York City Police Department",
+      "complaint_type": "Noise - Commercial",
+      "descriptor": "Loud Talking",
+      "location_type": "Store/Commercial",
+      "incident_zip": "11238",
+      "incident_address": "925 FULTON STREET",
+      "street_name": "FULTON STREET",
+      "cross_street_1": "CLINTON AVENUE",
+      "cross_street_2": "WAVERLY AVENUE",
+      "intersection_street_1": "CLINTON AVENUE",
+      "intersection_street_2": "WAVERLY AVENUE",
+      "address_type": "ADDRESS",
+      "city": "BROOKLYN",
+      "landmark": "FULTON STREET",
+      "status": "Closed",
+      "resolution_description": "The New York City Police Department responded to the complaint and with the information available observed no evidence of a criminal violation at that time. If the problem persists, please contact 311 to create another complaint. If possible, provide contact information so responding officers may reach out to you for more details. If necessary, your complaint may be referred to your local precinct's special operations units (Quality of Life, etc.). We count on New Yorkers like yourself to maintain a safe City, so please let us know if you see other conditions that require our attention.",
+      "resolution_action_updated_date": "2026-09-27T02:58:42.000",
+      "community_board": "02 BROOKLYN",
+      "council_district": "35",
+      "police_precinct": "Precinct 88",
+      "bbl": "3019770030",
+      "borough": "BROOKLYN",
+      "x_coordinate_state_plane": "993621",
+      "y_coordinate_state_plane": "188240",
+      "open_data_channel_type": "MOBILE",
+      "park_facility_name": "Unspecified",
+      "park_borough": "BROOKLYN",
+      "latitude": "40.683347123333384",
+      "longitude": "-73.96621237713741",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -73.966212377137,
+          40.683347123333
         ]
       }
     },
@@ -370973,48 +370973,6 @@
       }
     },
     {
-      "unique_key": "70553289",
-      "created_date": "2026-09-27T00:42:49.000",
-      "closed_date": "2026-09-27T01:36:51.000",
-      "agency": "NYPD",
-      "agency_name": "New York City Police Department",
-      "complaint_type": "Noise - Commercial",
-      "descriptor": "Loud Music/Party",
-      "location_type": "Club/Bar/Restaurant",
-      "incident_zip": "10002",
-      "incident_address": "251 BROOME STREET",
-      "street_name": "BROOME STREET",
-      "cross_street_1": "LUDLOW STREET",
-      "cross_street_2": "ORCHARD STREET",
-      "intersection_street_1": "LUDLOW STREET",
-      "intersection_street_2": "ORCHARD STREET",
-      "address_type": "ADDRESS",
-      "city": "NEW YORK",
-      "landmark": "BROOME STREET",
-      "status": "Closed",
-      "resolution_description": "The New York City Police Department responded to the complaint and with the information available observed no evidence of a criminal violation at that time. If the problem persists, please contact 311 to create another complaint. If possible, provide contact information so responding officers may reach out to you for more details. If necessary, your complaint may be referred to your local precinct's special operations units (Quality of Life, etc.). We count on New Yorkers like yourself to maintain a safe City, so please let us know if you see other conditions that require our attention.",
-      "resolution_action_updated_date": "2026-09-27T01:36:54.000",
-      "community_board": "03 MANHATTAN",
-      "council_district": "01",
-      "police_precinct": "Precinct 7",
-      "bbl": "1004080011",
-      "borough": "MANHATTAN",
-      "x_coordinate_state_plane": "987051",
-      "y_coordinate_state_plane": "200868",
-      "open_data_channel_type": "ONLINE",
-      "park_facility_name": "Unspecified",
-      "park_borough": "MANHATTAN",
-      "latitude": "40.718012546099004",
-      "longitude": "-73.98989559784327",
-      "location": {
-        "type": "Point",
-        "coordinates": [
-          -73.989895597843,
-          40.718012546099
-        ]
-      }
-    },
-    {
       "unique_key": "70557593",
       "created_date": "2026-09-27T00:42:49.000",
       "closed_date": "2026-09-27T00:42:49.000",
@@ -371084,6 +371042,48 @@
         "coordinates": [
           -73.984948433423,
           40.756081725579
+        ]
+      }
+    },
+    {
+      "unique_key": "70553289",
+      "created_date": "2026-09-27T00:42:49.000",
+      "closed_date": "2026-09-27T01:36:51.000",
+      "agency": "NYPD",
+      "agency_name": "New York City Police Department",
+      "complaint_type": "Noise - Commercial",
+      "descriptor": "Loud Music/Party",
+      "location_type": "Club/Bar/Restaurant",
+      "incident_zip": "10002",
+      "incident_address": "251 BROOME STREET",
+      "street_name": "BROOME STREET",
+      "cross_street_1": "LUDLOW STREET",
+      "cross_street_2": "ORCHARD STREET",
+      "intersection_street_1": "LUDLOW STREET",
+      "intersection_street_2": "ORCHARD STREET",
+      "address_type": "ADDRESS",
+      "city": "NEW YORK",
+      "landmark": "BROOME STREET",
+      "status": "Closed",
+      "resolution_description": "The New York City Police Department responded to the complaint and with the information available observed no evidence of a criminal violation at that time. If the problem persists, please contact 311 to create another complaint. If possible, provide contact information so responding officers may reach out to you for more details. If necessary, your complaint may be referred to your local precinct's special operations units (Quality of Life, etc.). We count on New Yorkers like yourself to maintain a safe City, so please let us know if you see other conditions that require our attention.",
+      "resolution_action_updated_date": "2026-09-27T01:36:54.000",
+      "community_board": "03 MANHATTAN",
+      "council_district": "01",
+      "police_precinct": "Precinct 7",
+      "bbl": "1004080011",
+      "borough": "MANHATTAN",
+      "x_coordinate_state_plane": "987051",
+      "y_coordinate_state_plane": "200868",
+      "open_data_channel_type": "ONLINE",
+      "park_facility_name": "Unspecified",
+      "park_borough": "MANHATTAN",
+      "latitude": "40.718012546099004",
+      "longitude": "-73.98989559784327",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -73.989895597843,
+          40.718012546099
         ]
       }
     },
@@ -373504,48 +373504,6 @@
       }
     },
     {
-      "unique_key": "70547672",
-      "created_date": "2026-09-27T00:33:38.000",
-      "closed_date": "2026-09-27T00:36:10.000",
-      "agency": "NYPD",
-      "agency_name": "New York City Police Department",
-      "complaint_type": "Noise - Commercial",
-      "descriptor": "Loud Music/Party",
-      "location_type": "Club/Bar/Restaurant",
-      "incident_zip": "10003",
-      "incident_address": "61 2 AVENUE",
-      "street_name": "2 AVENUE",
-      "cross_street_1": "EAST 3 STREET",
-      "cross_street_2": "EAST 4 STREET",
-      "intersection_street_1": "EAST 3 STREET",
-      "intersection_street_2": "EAST 4 STREET",
-      "address_type": "ADDRESS",
-      "city": "NEW YORK",
-      "landmark": "2 AVENUE",
-      "status": "Closed",
-      "resolution_description": "The New York City Police Department responded to the complaint and their investigation determined that no criminal violation existed. The condition was corrected without the need to issue a summons or effect an arrest. If the problem persists, please contact 311 to create another complaint. If possible, provide contact information so responding officers may reach out to you for more details. If necessary, your complaint may be referred to your local precinct's special operations units (Quality of Life, etc.). Thank you for your attention to this matter. We count on New Yorkers like yourself to maintain a safe City, so please let us know if you see other conditions that require our attention.",
-      "resolution_action_updated_date": "2026-09-27T00:36:12.000",
-      "community_board": "03 MANHATTAN",
-      "council_district": "02",
-      "police_precinct": "Precinct 9",
-      "bbl": "1004590031",
-      "borough": "MANHATTAN",
-      "x_coordinate_state_plane": "987123",
-      "y_coordinate_state_plane": "203749",
-      "open_data_channel_type": "ONLINE",
-      "park_facility_name": "Unspecified",
-      "park_borough": "MANHATTAN",
-      "latitude": "40.72592017187683",
-      "longitude": "-73.9896346333224",
-      "location": {
-        "type": "Point",
-        "coordinates": [
-          -73.989634633322,
-          40.725920171877
-        ]
-      }
-    },
-    {
       "unique_key": "70551992",
       "created_date": "2026-09-27T00:33:38.000",
       "closed_date": "2026-09-27T01:51:03.000",
@@ -373584,6 +373542,48 @@
         "coordinates": [
           -73.913695881036,
           40.848970363242
+        ]
+      }
+    },
+    {
+      "unique_key": "70547672",
+      "created_date": "2026-09-27T00:33:38.000",
+      "closed_date": "2026-09-27T00:36:10.000",
+      "agency": "NYPD",
+      "agency_name": "New York City Police Department",
+      "complaint_type": "Noise - Commercial",
+      "descriptor": "Loud Music/Party",
+      "location_type": "Club/Bar/Restaurant",
+      "incident_zip": "10003",
+      "incident_address": "61 2 AVENUE",
+      "street_name": "2 AVENUE",
+      "cross_street_1": "EAST 3 STREET",
+      "cross_street_2": "EAST 4 STREET",
+      "intersection_street_1": "EAST 3 STREET",
+      "intersection_street_2": "EAST 4 STREET",
+      "address_type": "ADDRESS",
+      "city": "NEW YORK",
+      "landmark": "2 AVENUE",
+      "status": "Closed",
+      "resolution_description": "The New York City Police Department responded to the complaint and their investigation determined that no criminal violation existed. The condition was corrected without the need to issue a summons or effect an arrest. If the problem persists, please contact 311 to create another complaint. If possible, provide contact information so responding officers may reach out to you for more details. If necessary, your complaint may be referred to your local precinct's special operations units (Quality of Life, etc.). Thank you for your attention to this matter. We count on New Yorkers like yourself to maintain a safe City, so please let us know if you see other conditions that require our attention.",
+      "resolution_action_updated_date": "2026-09-27T00:36:12.000",
+      "community_board": "03 MANHATTAN",
+      "council_district": "02",
+      "police_precinct": "Precinct 9",
+      "bbl": "1004590031",
+      "borough": "MANHATTAN",
+      "x_coordinate_state_plane": "987123",
+      "y_coordinate_state_plane": "203749",
+      "open_data_channel_type": "ONLINE",
+      "park_facility_name": "Unspecified",
+      "park_borough": "MANHATTAN",
+      "latitude": "40.72592017187683",
+      "longitude": "-73.9896346333224",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -73.989634633322,
+          40.725920171877
         ]
       }
     },
@@ -379386,48 +379386,6 @@
       }
     },
     {
-      "unique_key": "70548281",
-      "created_date": "2026-09-27T00:10:22.000",
-      "closed_date": "2026-09-27T00:50:03.000",
-      "agency": "NYPD",
-      "agency_name": "New York City Police Department",
-      "complaint_type": "Noise - Commercial",
-      "descriptor": "Loud Talking",
-      "location_type": "Store/Commercial",
-      "incident_zip": "10025",
-      "incident_address": "982 AMSTERDAM AVENUE",
-      "street_name": "AMSTERDAM AVENUE",
-      "cross_street_1": "WEST 108 STREET",
-      "cross_street_2": "WEST 109 STREET",
-      "intersection_street_1": "WEST 108 STREET",
-      "intersection_street_2": "WEST 109 STREET",
-      "address_type": "ADDRESS",
-      "city": "NEW YORK",
-      "landmark": "AMSTERDAM AVENUE",
-      "status": "Closed",
-      "resolution_description": "The New York City Police Department responded to the complaint and their investigation determined that no criminal violation existed. The condition was corrected without the need to issue a summons or effect an arrest. If the problem persists, please contact 311 to create another complaint. If possible, provide contact information so responding officers may reach out to you for more details. If necessary, your complaint may be referred to your local precinct's special operations units (Quality of Life, etc.). Thank you for your attention to this matter. We count on New Yorkers like yourself to maintain a safe City, so please let us know if you see other conditions that require our attention.",
-      "resolution_action_updated_date": "2026-09-27T00:50:12.000",
-      "community_board": "07 MANHATTAN",
-      "council_district": "07",
-      "police_precinct": "Precinct 24",
-      "bbl": "1018807501",
-      "borough": "MANHATTAN",
-      "x_coordinate_state_plane": "994061",
-      "y_coordinate_state_plane": "231480",
-      "open_data_channel_type": "MOBILE",
-      "park_facility_name": "Unspecified",
-      "park_borough": "MANHATTAN",
-      "latitude": "40.80202962892915",
-      "longitude": "-73.96456286425567",
-      "location": {
-        "type": "Point",
-        "coordinates": [
-          -73.964562864256,
-          40.802029628929
-        ]
-      }
-    },
-    {
       "unique_key": "70549410",
       "created_date": "2026-09-27T00:10:22.000",
       "closed_date": "2026-09-27T01:06:40.000",
@@ -379466,6 +379424,48 @@
         "coordinates": [
           -74.06883485383,
           40.597249502152
+        ]
+      }
+    },
+    {
+      "unique_key": "70548281",
+      "created_date": "2026-09-27T00:10:22.000",
+      "closed_date": "2026-09-27T00:50:03.000",
+      "agency": "NYPD",
+      "agency_name": "New York City Police Department",
+      "complaint_type": "Noise - Commercial",
+      "descriptor": "Loud Talking",
+      "location_type": "Store/Commercial",
+      "incident_zip": "10025",
+      "incident_address": "982 AMSTERDAM AVENUE",
+      "street_name": "AMSTERDAM AVENUE",
+      "cross_street_1": "WEST 108 STREET",
+      "cross_street_2": "WEST 109 STREET",
+      "intersection_street_1": "WEST 108 STREET",
+      "intersection_street_2": "WEST 109 STREET",
+      "address_type": "ADDRESS",
+      "city": "NEW YORK",
+      "landmark": "AMSTERDAM AVENUE",
+      "status": "Closed",
+      "resolution_description": "The New York City Police Department responded to the complaint and their investigation determined that no criminal violation existed. The condition was corrected without the need to issue a summons or effect an arrest. If the problem persists, please contact 311 to create another complaint. If possible, provide contact information so responding officers may reach out to you for more details. If necessary, your complaint may be referred to your local precinct's special operations units (Quality of Life, etc.). Thank you for your attention to this matter. We count on New Yorkers like yourself to maintain a safe City, so please let us know if you see other conditions that require our attention.",
+      "resolution_action_updated_date": "2026-09-27T00:50:12.000",
+      "community_board": "07 MANHATTAN",
+      "council_district": "07",
+      "police_precinct": "Precinct 24",
+      "bbl": "1018807501",
+      "borough": "MANHATTAN",
+      "x_coordinate_state_plane": "994061",
+      "y_coordinate_state_plane": "231480",
+      "open_data_channel_type": "MOBILE",
+      "park_facility_name": "Unspecified",
+      "park_borough": "MANHATTAN",
+      "latitude": "40.80202962892915",
+      "longitude": "-73.96456286425567",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -73.964562864256,
+          40.802029628929
         ]
       }
     },
@@ -382009,48 +382009,6 @@
       }
     },
     {
-      "unique_key": "70556297",
-      "created_date": "2026-09-27T00:00:55.000",
-      "closed_date": "2026-09-27T00:50:03.000",
-      "agency": "NYPD",
-      "agency_name": "New York City Police Department",
-      "complaint_type": "Noise - Residential",
-      "descriptor": "Loud Music/Party",
-      "location_type": "Residential Building/House",
-      "incident_zip": "10025",
-      "incident_address": "230 WEST 108 STREET",
-      "street_name": "WEST 108 STREET",
-      "cross_street_1": "AMSTERDAM AVENUE",
-      "cross_street_2": "BROADWAY",
-      "intersection_street_1": "AMSTERDAM AVENUE",
-      "intersection_street_2": "BROADWAY",
-      "address_type": "ADDRESS",
-      "city": "NEW YORK",
-      "landmark": "WEST 108 STREET",
-      "status": "Closed",
-      "resolution_description": "The New York City Police Department responded to the complaint but officers were unable to gain entry into the premises. If the problem persists, please contact 311 to create another complaint and ensure that contact information (e.g., buzzer number, phone number, etc.) is available to assist the responding officers in gaining entry to properly investigate the complaint.  We count on New Yorkers like yourself to maintain a safe City, so please let us know if you see other conditions that require our attention.",
-      "resolution_action_updated_date": "2026-09-27T00:50:07.000",
-      "community_board": "07 MANHATTAN",
-      "council_district": "07",
-      "police_precinct": "Precinct 24",
-      "bbl": "1018790051",
-      "borough": "MANHATTAN",
-      "x_coordinate_state_plane": "993694",
-      "y_coordinate_state_plane": "231545",
-      "open_data_channel_type": "ONLINE",
-      "park_facility_name": "Unspecified",
-      "park_borough": "MANHATTAN",
-      "latitude": "40.80220843599054",
-      "longitude": "-73.96588836935149",
-      "location": {
-        "type": "Point",
-        "coordinates": [
-          -73.965888369351,
-          40.802208435991
-        ]
-      }
-    },
-    {
       "unique_key": "70550452",
       "created_date": "2026-09-27T00:00:55.000",
       "closed_date": "2026-09-27T02:10:06.000",
@@ -382089,6 +382047,48 @@
         "coordinates": [
           -73.826694928842,
           40.777888356474
+        ]
+      }
+    },
+    {
+      "unique_key": "70556297",
+      "created_date": "2026-09-27T00:00:55.000",
+      "closed_date": "2026-09-27T00:50:03.000",
+      "agency": "NYPD",
+      "agency_name": "New York City Police Department",
+      "complaint_type": "Noise - Residential",
+      "descriptor": "Loud Music/Party",
+      "location_type": "Residential Building/House",
+      "incident_zip": "10025",
+      "incident_address": "230 WEST 108 STREET",
+      "street_name": "WEST 108 STREET",
+      "cross_street_1": "AMSTERDAM AVENUE",
+      "cross_street_2": "BROADWAY",
+      "intersection_street_1": "AMSTERDAM AVENUE",
+      "intersection_street_2": "BROADWAY",
+      "address_type": "ADDRESS",
+      "city": "NEW YORK",
+      "landmark": "WEST 108 STREET",
+      "status": "Closed",
+      "resolution_description": "The New York City Police Department responded to the complaint but officers were unable to gain entry into the premises. If the problem persists, please contact 311 to create another complaint and ensure that contact information (e.g., buzzer number, phone number, etc.) is available to assist the responding officers in gaining entry to properly investigate the complaint.  We count on New Yorkers like yourself to maintain a safe City, so please let us know if you see other conditions that require our attention.",
+      "resolution_action_updated_date": "2026-09-27T00:50:07.000",
+      "community_board": "07 MANHATTAN",
+      "council_district": "07",
+      "police_precinct": "Precinct 24",
+      "bbl": "1018790051",
+      "borough": "MANHATTAN",
+      "x_coordinate_state_plane": "993694",
+      "y_coordinate_state_plane": "231545",
+      "open_data_channel_type": "ONLINE",
+      "park_facility_name": "Unspecified",
+      "park_borough": "MANHATTAN",
+      "latitude": "40.80220843599054",
+      "longitude": "-73.96588836935149",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -73.965888369351,
+          40.802208435991
         ]
       }
     },
