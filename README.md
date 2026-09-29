@@ -1,6 +1,6 @@
 ## 311 Dashboard 
 
-This gets updates on 311 complaints from NYC Open Data and then visualizes them by community board and borough. The dashboard is a dash app that is not hosted anywhere at the moment, so if you'd like to use it clone the repository and run the app locally. Data refreshes daily via a scheduled GitHub Actions workflow.
+This pulls updates on 311 complaints from NYC Open Data and then visualizes them by community board and borough. The dashboard is a dash app hosted at three11-complaints.onrender.com/. Data refreshes daily via a scheduled GitHub Actions workflow.
 
 ## Setup
 
@@ -38,4 +38,10 @@ NYC_PASSWORD=your_password
 ```
 # In the directory root
 python app.py
+```
+## Run the pipeline
+
+```
+# In the directory root
+python orchestrator.py
 ```
