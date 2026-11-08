@@ -6,15 +6,25 @@ import json
 from datetime import datetime, timedelta
 from dotenv import load_dotenv
 from pathlib import Path
+import requests
+import logging
 
+logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
+logger = logging.getLogger("fetch_data")
 
 env_path = Path.cwd() / ".env"
 load_dotenv(env_path)
+
 
 api_token = os.getenv("NYC_API_TOKEN")
 username = os.getenv("NYC_USERNAME")
 password = os.getenv("NYC_PASSWORD")
 DATASET = 'erm2-nwe9'
+
+logger.info(
+    "Credentials loaded: token=%s, username=%s, password=%s",
+    bool(api_token), bool(username), bool(password),
+)
 
 client = Socrata('data.cityofnewyork.us',
                  api_token,
